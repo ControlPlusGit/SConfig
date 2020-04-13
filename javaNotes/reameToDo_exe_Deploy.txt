@@ -1,0 +1,7 @@
+Para transformar um arquivo .jar em .exe, utilizar como referência o link abaixo:
+
+link: https://www.youtube.com/watch?v=rqcpqhgLRGM
+
+Programas Ino Setup e Launch4J
+
+Somente desse modo consegui fazer com que a biblioteca serial JSSC funcionasse corretamente. Utilizando o modo embutido do netbeans de gerar .exe's causou problema no programa.
