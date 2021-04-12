@@ -85,6 +85,31 @@ public class Main extends javax.swing.JFrame {
         jLabel9 = new javax.swing.JLabel();
         txtfFrequenciaDeOperacao = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
+        lblIpPrincipal2 = new javax.swing.JLabel();
+        txtbIp_Empilhadeira = new javax.swing.JTextField();
+        lblDicaIpPrincipal2 = new javax.swing.JLabel();
+        txtbMac_Empilhadeira = new javax.swing.JTextField();
+        lblDicaIpPrincipal3 = new javax.swing.JLabel();
+        lblIpPrincipal3 = new javax.swing.JLabel();
+        cbDHCP_Empilhadeira = new javax.swing.JCheckBox();
+        separador6 = new javax.swing.JSeparator();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        txtaSaidaPromptEmpilhadeira = new javax.swing.JTextArea();
+        jLabel55 = new javax.swing.JLabel();
+        separador7 = new javax.swing.JSeparator();
+        lblIpPrincipal4 = new javax.swing.JLabel();
+        txtbGateway_Empilhadeira = new javax.swing.JTextField();
+        lblDicaIpPrincipal4 = new javax.swing.JLabel();
+        lblIpPrincipal5 = new javax.swing.JLabel();
+        txtbMask_Empilhadeira = new javax.swing.JTextField();
+        lblDicaIpPrincipal5 = new javax.swing.JLabel();
+        lblDicaIpPrincipal6 = new javax.swing.JLabel();
+        btnEnviarComandoEmpilhadeira = new javax.swing.JButton();
+        btnLimparConsoleEmpilhadeira = new javax.swing.JButton();
+        txtbComandoEmpilhadeira = new javax.swing.JTextField();
+        ckbCR = new javax.swing.JCheckBox();
+        ckbLF = new javax.swing.JCheckBox();
+        ckbNULL = new javax.swing.JCheckBox();
         panelAntenas = new javax.swing.JPanel();
         panelAntena1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
@@ -160,6 +185,137 @@ public class Main extends javax.swing.JFrame {
         txtfRssiMinAnt4 = new javax.swing.JSpinner();
         btnCalibracaoAuto = new javax.swing.JButton();
         jLabel14 = new javax.swing.JLabel();
+        tbpanePortal = new javax.swing.JTabbedPane();
+        panelGeral1 = new javax.swing.JPanel();
+        lblParamGerais1 = new javax.swing.JLabel();
+        lblIdEmpilhadeira1 = new javax.swing.JLabel();
+        lblServidorPrincipal1 = new javax.swing.JLabel();
+        lblIpPrincipal1 = new javax.swing.JLabel();
+        lblPortaPrincipal1 = new javax.swing.JLabel();
+        txtfIdPortal = new javax.swing.JTextField();
+        txtfIpPrincipalPortal = new javax.swing.JTextField();
+        txtfPortaPrincipalPortal = new javax.swing.JTextField();
+        lblDicaIdLeitor2 = new javax.swing.JLabel();
+        lblDicaIpPrincipal1 = new javax.swing.JLabel();
+        lblDicaPortaPrincipal1 = new javax.swing.JLabel();
+        separador4 = new javax.swing.JSeparator();
+        txtfIpBackupPortal = new javax.swing.JTextField();
+        lblIpBackup1 = new javax.swing.JLabel();
+        lblServidorBackup1 = new javax.swing.JLabel();
+        lblPortaBackup1 = new javax.swing.JLabel();
+        txtfPortaBackupPortal = new javax.swing.JTextField();
+        lblDicaPortaBackup1 = new javax.swing.JLabel();
+        lblDicaIpBackup1 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        txtfFrequenciaDeOperacaoPortal = new javax.swing.JTextField();
+        jLabel53 = new javax.swing.JLabel();
+        lblIdEmpilhadeira2 = new javax.swing.JLabel();
+        txtfModoOperacaoPortal = new javax.swing.JTextField();
+        lblIdEmpilhadeira3 = new javax.swing.JLabel();
+        txtfAtrasoParaDegradarLeituraPortal = new javax.swing.JTextField();
+        lblDicaIdLeitor4 = new javax.swing.JLabel();
+        txtfSensibilidadeAntenasPortal = new javax.swing.JTextField();
+        lblDicaIdLeitor5 = new javax.swing.JLabel();
+        lblIdEmpilhadeira4 = new javax.swing.JLabel();
+        txtfTempoInatividadeTagPortal = new javax.swing.JTextField();
+        jLabel103 = new javax.swing.JLabel();
+        lblIdEmpilhadeira5 = new javax.swing.JLabel();
+        txtfNumAntenasLidasPortal = new javax.swing.JTextField();
+        lblDicaIdLeitor3 = new javax.swing.JLabel();
+        jLabel104 = new javax.swing.JLabel();
+        separador5 = new javax.swing.JSeparator();
+        txtfRepeticaoNaLeituraPortal = new javax.swing.JTextField();
+        jLabel105 = new javax.swing.JLabel();
+        jLabel106 = new javax.swing.JLabel();
+        separador8 = new javax.swing.JSeparator();
+        cbDHCP_Portal = new javax.swing.JCheckBox();
+        txtbIp_Portal = new javax.swing.JTextField();
+        lblIpPrincipal6 = new javax.swing.JLabel();
+        lblIpPrincipal7 = new javax.swing.JLabel();
+        lblIpPrincipal8 = new javax.swing.JLabel();
+        lblIpPrincipal9 = new javax.swing.JLabel();
+        txtbMac_Portal = new javax.swing.JTextField();
+        lblDicaIpPrincipal7 = new javax.swing.JLabel();
+        lblDicaIpPrincipal8 = new javax.swing.JLabel();
+        lblDicaIpPrincipal9 = new javax.swing.JLabel();
+        lblDicaIpPrincipal10 = new javax.swing.JLabel();
+        lblDicaIpPrincipal11 = new javax.swing.JLabel();
+        txtbGateway_Portal = new javax.swing.JTextField();
+        txtbMask_Portal = new javax.swing.JTextField();
+        jLabel60 = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        txtaSaidaPromptPortal = new javax.swing.JTextArea();
+        txtbComandoPortal = new javax.swing.JTextField();
+        btnEnviarComandoPortal = new javax.swing.JButton();
+        btnLimparConsolePortal = new javax.swing.JButton();
+        ckbCR_Portal = new javax.swing.JCheckBox();
+        ckbLF_Portal = new javax.swing.JCheckBox();
+        ckbNULL_Portal = new javax.swing.JCheckBox();
+        separador10 = new javax.swing.JSeparator();
+        separador11 = new javax.swing.JSeparator();
+        panelAntenas1 = new javax.swing.JPanel();
+        panelAntena5 = new javax.swing.JPanel();
+        jLabel54 = new javax.swing.JLabel();
+        jLabel56 = new javax.swing.JLabel();
+        jLabel57 = new javax.swing.JLabel();
+        jLabel58 = new javax.swing.JLabel();
+        jLabel59 = new javax.swing.JLabel();
+        txtfClenAnt1Portal = new javax.swing.JTextField();
+        txtfCoutAnt1Portal = new javax.swing.JTextField();
+        txtfCinAnt1Portal = new javax.swing.JTextField();
+        jLabel61 = new javax.swing.JLabel();
+        jLabel62 = new javax.swing.JLabel();
+        jLabel63 = new javax.swing.JLabel();
+        jLabel64 = new javax.swing.JLabel();
+        txtfReflexaoAnt1Portal = new javax.swing.JTextField();
+        jLabel65 = new javax.swing.JLabel();
+        panelAntena6 = new javax.swing.JPanel();
+        jLabel66 = new javax.swing.JLabel();
+        jLabel68 = new javax.swing.JLabel();
+        jLabel69 = new javax.swing.JLabel();
+        jLabel70 = new javax.swing.JLabel();
+        jLabel71 = new javax.swing.JLabel();
+        txtfClenAnt2Portal = new javax.swing.JTextField();
+        txtfCoutAnt2Portal = new javax.swing.JTextField();
+        txtfCinAnt2Portal = new javax.swing.JTextField();
+        jLabel73 = new javax.swing.JLabel();
+        jLabel74 = new javax.swing.JLabel();
+        jLabel75 = new javax.swing.JLabel();
+        jLabel76 = new javax.swing.JLabel();
+        jLabel77 = new javax.swing.JLabel();
+        txtfReflexaoAnt2Portal = new javax.swing.JTextField();
+        panelAntena7 = new javax.swing.JPanel();
+        jLabel78 = new javax.swing.JLabel();
+        jLabel80 = new javax.swing.JLabel();
+        jLabel81 = new javax.swing.JLabel();
+        jLabel82 = new javax.swing.JLabel();
+        jLabel83 = new javax.swing.JLabel();
+        txtfClenAnt3Portal = new javax.swing.JTextField();
+        txtfCoutAnt3Portal = new javax.swing.JTextField();
+        txtfCinAnt3Portal = new javax.swing.JTextField();
+        jLabel85 = new javax.swing.JLabel();
+        jLabel86 = new javax.swing.JLabel();
+        jLabel87 = new javax.swing.JLabel();
+        jLabel88 = new javax.swing.JLabel();
+        jLabel89 = new javax.swing.JLabel();
+        txtfReflexaoAnt3Portal = new javax.swing.JTextField();
+        panelAntena8 = new javax.swing.JPanel();
+        jLabel90 = new javax.swing.JLabel();
+        jLabel92 = new javax.swing.JLabel();
+        jLabel93 = new javax.swing.JLabel();
+        jLabel94 = new javax.swing.JLabel();
+        jLabel95 = new javax.swing.JLabel();
+        txtfClenAnt4Portal = new javax.swing.JTextField();
+        txtfCoutAnt4Portal = new javax.swing.JTextField();
+        txtfCinAnt4Portal = new javax.swing.JTextField();
+        jLabel97 = new javax.swing.JLabel();
+        jLabel98 = new javax.swing.JLabel();
+        jLabel99 = new javax.swing.JLabel();
+        jLabel100 = new javax.swing.JLabel();
+        jLabel101 = new javax.swing.JLabel();
+        txtfReflexaoAnt4Portal = new javax.swing.JTextField();
+        btnCalibracaoAutoPortal = new javax.swing.JButton();
+        jLabel102 = new javax.swing.JLabel();
         toolbarPrincipal = new javax.swing.JToolBar();
         btnGravar = new javax.swing.JButton();
         btnLer = new javax.swing.JButton();
@@ -170,6 +326,7 @@ public class Main extends javax.swing.JFrame {
         cbPorts = new javax.swing.JComboBox<>();
         jSeparator1 = new javax.swing.JToolBar.Separator();
         btnAtualizar = new javax.swing.JButton();
+        btnFecharConexaoSerial = new javax.swing.JButton();
         menuPrincipal = new javax.swing.JMenuBar();
         menubarArquivo = new javax.swing.JMenu();
         menuNovo = new javax.swing.JMenu();
@@ -187,7 +344,7 @@ public class Main extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("SConfig+");
-        setMinimumSize(new java.awt.Dimension(770, 415));
+        setMinimumSize(new java.awt.Dimension(1000, 700));
         setSize(new java.awt.Dimension(830, 500));
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosing(java.awt.event.WindowEvent evt) {
@@ -198,7 +355,13 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        tbpanemodelo.setPreferredSize(new java.awt.Dimension(770, 342));
+        tbpanemodelo.setMinimumSize(new java.awt.Dimension(1200, 350));
+        tbpanemodelo.setPreferredSize(new java.awt.Dimension(1200, 342));
+
+        tbpaneEmpilhadeira.setPreferredSize(new java.awt.Dimension(1000, 516));
+
+        panelGeral.setMinimumSize(new java.awt.Dimension(1200, 0));
+        panelGeral.setPreferredSize(new java.awt.Dimension(1200, 1000));
 
         lblParamGerais.setText("Parâmetros Gerais:");
 
@@ -210,7 +373,7 @@ public class Main extends javax.swing.JFrame {
 
         lblServidorPrincipal.setText("Servidor principal (SARS)");
 
-        lblIpPrincipal.setText("Ip:");
+        lblIpPrincipal.setText("IP:");
 
         lblPortaPrincipal.setText("Porta:");
 
@@ -234,7 +397,7 @@ public class Main extends javax.swing.JFrame {
 
         separador2.setOrientation(javax.swing.SwingConstants.VERTICAL);
 
-        lblIpBackup.setText("Ip:");
+        lblIpBackup.setText("IP:");
 
         lblServidorBackup.setText("Servidor backup (SARS)");
 
@@ -248,6 +411,82 @@ public class Main extends javax.swing.JFrame {
 
         jLabel3.setText("Frequência de operação:");
 
+        lblIpPrincipal2.setText("IP:");
+
+        txtbIp_Empilhadeira.setEditable(false);
+        txtbIp_Empilhadeira.setName("txtbIp_Empilhadeira"); // NOI18N
+
+        lblDicaIpPrincipal2.setText("(192.168.0.2)");
+
+        txtbMac_Empilhadeira.setName("txtbMac_Empilhadeira"); // NOI18N
+
+        lblDicaIpPrincipal3.setText("(FF:FF:FF:FF:FF:FF)");
+
+        lblIpPrincipal3.setText("MAC:");
+
+        cbDHCP_Empilhadeira.setSelected(true);
+        cbDHCP_Empilhadeira.setText("Habilitar DHCP");
+        cbDHCP_Empilhadeira.setName("cbDHCP_Empilhadeira"); // NOI18N
+        cbDHCP_Empilhadeira.addItemListener(new java.awt.event.ItemListener() {
+            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+                cbDHCP_EmpilhadeiraItemStateChanged(evt);
+            }
+        });
+
+        txtaSaidaPromptEmpilhadeira.setColumns(20);
+        txtaSaidaPromptEmpilhadeira.setRows(5);
+        txtaSaidaPromptEmpilhadeira.setWrapStyleWord(true);
+        txtaSaidaPromptEmpilhadeira.setName("txtaSaidaPromptEmpilhadeira"); // NOI18N
+        jScrollPane1.setViewportView(txtaSaidaPromptEmpilhadeira);
+
+        jLabel55.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel55.setText("Console:");
+
+        separador7.setOrientation(javax.swing.SwingConstants.VERTICAL);
+
+        lblIpPrincipal4.setText("Gateway:");
+
+        txtbGateway_Empilhadeira.setEditable(false);
+        txtbGateway_Empilhadeira.setName("txtbGateway_Empilhadeira"); // NOI18N
+
+        lblDicaIpPrincipal4.setText("(192.168.0.2)");
+
+        lblIpPrincipal5.setText("Máscara:");
+
+        txtbMask_Empilhadeira.setEditable(false);
+        txtbMask_Empilhadeira.setName("txtbMask_Empilhadeira"); // NOI18N
+
+        lblDicaIpPrincipal5.setText("(255.255.255.0)");
+
+        lblDicaIpPrincipal6.setText("OBS: O bit zero do primeiro byte do MAC não pode ser 1");
+
+        btnEnviarComandoEmpilhadeira.setText("Enviar");
+        btnEnviarComandoEmpilhadeira.setName("btnEnviarComandoEmpilhadeira"); // NOI18N
+        btnEnviarComandoEmpilhadeira.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEnviarComandoEmpilhadeiraActionPerformed(evt);
+            }
+        });
+
+        btnLimparConsoleEmpilhadeira.setText("Limpar console");
+        btnLimparConsoleEmpilhadeira.setName("btnLimparConsoleEmpilhadeira"); // NOI18N
+        btnLimparConsoleEmpilhadeira.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnLimparConsoleEmpilhadeiraActionPerformed(evt);
+            }
+        });
+
+        txtbComandoEmpilhadeira.setName("txtbComandoEmpilhadeira"); // NOI18N
+
+        ckbCR.setText("<CR>");
+        ckbCR.setName("ckbCR"); // NOI18N
+
+        ckbLF.setText("<LF>");
+        ckbLF.setName("ckbLF"); // NOI18N
+
+        ckbNULL.setText("NULL");
+        ckbNULL.setName("ckbNULL"); // NOI18N
+
         javax.swing.GroupLayout panelGeralLayout = new javax.swing.GroupLayout(panelGeral);
         panelGeral.setLayout(panelGeralLayout);
         panelGeralLayout.setHorizontalGroup(
@@ -256,50 +495,8 @@ public class Main extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(panelGeralLayout.createSequentialGroup()
-                        .addComponent(separador1)
-                        .addGap(127, 127, 127))
-                    .addGroup(panelGeralLayout.createSequentialGroup()
                         .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(panelGeralLayout.createSequentialGroup()
-                                .addGap(13, 13, 13)
-                                .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(panelGeralLayout.createSequentialGroup()
-                                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(lblPortaPrincipal)
-                                            .addComponent(lblIpPrincipal))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(panelGeralLayout.createSequentialGroup()
-                                                .addComponent(txtfPortaPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(lblDicaPortaPrincipal))
-                                            .addGroup(panelGeralLayout.createSequentialGroup()
-                                                .addComponent(txtfIpPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(lblDicaIpPrincipal))))
-                                    .addGroup(panelGeralLayout.createSequentialGroup()
-                                        .addGap(3, 3, 3)
-                                        .addComponent(lblServidorPrincipal)))
-                                .addGap(18, 18, 18)
-                                .addComponent(separador2, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(panelGeralLayout.createSequentialGroup()
-                                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(lblPortaBackup)
-                                            .addComponent(lblIpBackup))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(panelGeralLayout.createSequentialGroup()
-                                                .addComponent(txtfPortaBackup, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(lblDicaPortaBackup))
-                                            .addGroup(panelGeralLayout.createSequentialGroup()
-                                                .addComponent(txtfIpBackup, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(lblDicaIpBackup))))
-                                    .addGroup(panelGeralLayout.createSequentialGroup()
-                                        .addGap(3, 3, 3)
-                                        .addComponent(lblServidorBackup))))
+                            .addComponent(jLabel55)
                             .addGroup(panelGeralLayout.createSequentialGroup()
                                 .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addGroup(panelGeralLayout.createSequentialGroup()
@@ -325,11 +522,94 @@ public class Main extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addComponent(txtfFrequenciaDeOperacao, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel9)))
-                        .addContainerGap(76, Short.MAX_VALUE))
-                    .addGroup(panelGeralLayout.createSequentialGroup()
-                        .addComponent(lblParamGerais)
-                        .addGap(0, 0, Short.MAX_VALUE))))
+                                .addComponent(jLabel9))
+                            .addGroup(panelGeralLayout.createSequentialGroup()
+                                .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(panelGeralLayout.createSequentialGroup()
+                                        .addComponent(lblIpPrincipal4)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(txtbGateway_Empilhadeira, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(lblDicaIpPrincipal4))
+                                    .addGroup(panelGeralLayout.createSequentialGroup()
+                                        .addComponent(lblIpPrincipal2)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(txtbIp_Empilhadeira, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(lblDicaIpPrincipal2))
+                                    .addComponent(cbDHCP_Empilhadeira)
+                                    .addGroup(panelGeralLayout.createSequentialGroup()
+                                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panelGeralLayout.createSequentialGroup()
+                                                .addComponent(lblIpPrincipal3)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                                .addComponent(txtbMac_Empilhadeira))
+                                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panelGeralLayout.createSequentialGroup()
+                                                .addComponent(lblIpPrincipal5)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                                .addComponent(txtbMask_Empilhadeira, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(lblDicaIpPrincipal5)
+                                            .addComponent(lblDicaIpPrincipal3, javax.swing.GroupLayout.Alignment.TRAILING))))
+                                .addGap(11, 11, 11)
+                                .addComponent(separador2, javax.swing.GroupLayout.PREFERRED_SIZE, 7, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(panelGeralLayout.createSequentialGroup()
+                                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(lblPortaPrincipal)
+                                            .addComponent(lblIpPrincipal))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(panelGeralLayout.createSequentialGroup()
+                                                .addComponent(txtfPortaPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(lblDicaPortaPrincipal))
+                                            .addGroup(panelGeralLayout.createSequentialGroup()
+                                                .addComponent(txtfIpPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(lblDicaIpPrincipal))))
+                                    .addGroup(panelGeralLayout.createSequentialGroup()
+                                        .addGap(3, 3, 3)
+                                        .addComponent(lblServidorPrincipal)))
+                                .addGap(10, 10, 10)
+                                .addComponent(separador7, javax.swing.GroupLayout.PREFERRED_SIZE, 7, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(panelGeralLayout.createSequentialGroup()
+                                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(lblPortaBackup, javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(lblIpBackup, javax.swing.GroupLayout.Alignment.TRAILING))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(panelGeralLayout.createSequentialGroup()
+                                                .addComponent(txtfPortaBackup, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(lblDicaPortaBackup))
+                                            .addGroup(panelGeralLayout.createSequentialGroup()
+                                                .addComponent(txtfIpBackup, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(lblDicaIpBackup))))
+                                    .addComponent(lblServidorBackup)))
+                            .addComponent(lblParamGerais)
+                            .addComponent(lblDicaIpPrincipal6)
+                            .addGroup(panelGeralLayout.createSequentialGroup()
+                                .addComponent(txtbComandoEmpilhadeira, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(btnEnviarComandoEmpilhadeira)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnLimparConsoleEmpilhadeira)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(ckbCR)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(ckbLF)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(ckbNULL)))
+                        .addGap(0, 63, Short.MAX_VALUE))
+                    .addComponent(separador1)
+                    .addComponent(separador6, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addContainerGap())
         );
         panelGeralLayout.setVerticalGroup(
             panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -357,35 +637,77 @@ public class Main extends javax.swing.JFrame {
                     .addComponent(txtfSenhaWifi, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblDicaSenhaWifi))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(separador1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(separador1, javax.swing.GroupLayout.PREFERRED_SIZE, 5, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(separador7)
+                    .addGroup(panelGeralLayout.createSequentialGroup()
+                        .addComponent(cbDHCP_Empilhadeira)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblIpPrincipal2)
+                            .addComponent(txtbIp_Empilhadeira, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblDicaIpPrincipal2))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblIpPrincipal4)
+                            .addComponent(txtbGateway_Empilhadeira, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblDicaIpPrincipal4))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblIpPrincipal5)
+                            .addComponent(txtbMask_Empilhadeira, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblDicaIpPrincipal5))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblIpPrincipal3)
+                            .addComponent(txtbMac_Empilhadeira, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblDicaIpPrincipal3)))
+                    .addGroup(panelGeralLayout.createSequentialGroup()
+                        .addGap(17, 17, 17)
+                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(panelGeralLayout.createSequentialGroup()
+                                .addComponent(lblServidorPrincipal)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(lblIpPrincipal)
+                                    .addComponent(txtfIpPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lblDicaIpPrincipal))
+                                .addGap(9, 9, 9)
+                                .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(txtfPortaPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lblPortaPrincipal)
+                                    .addComponent(lblDicaPortaPrincipal)))
+                            .addGroup(panelGeralLayout.createSequentialGroup()
+                                .addComponent(lblServidorBackup)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(lblIpBackup)
+                                    .addComponent(txtfIpBackup, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lblDicaIpBackup))
+                                .addGap(9, 9, 9)
+                                .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(txtfPortaBackup, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lblPortaBackup)
+                                    .addComponent(lblDicaPortaBackup)))))
+                    .addComponent(separador2))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(panelGeralLayout.createSequentialGroup()
-                        .addComponent(lblServidorPrincipal)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(lblIpPrincipal)
-                            .addComponent(txtfIpPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lblDicaIpPrincipal))
-                        .addGap(9, 9, 9)
-                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(txtfPortaPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lblPortaPrincipal)
-                            .addComponent(lblDicaPortaPrincipal)))
-                    .addGroup(panelGeralLayout.createSequentialGroup()
-                        .addComponent(lblServidorBackup)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(lblIpBackup)
-                            .addComponent(txtfIpBackup, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lblDicaIpBackup))
-                        .addGap(9, 9, 9)
-                        .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(txtfPortaBackup, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lblPortaBackup)
-                            .addComponent(lblDicaPortaBackup)))
-                    .addComponent(separador2, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(26, Short.MAX_VALUE))
+                .addComponent(lblDicaIpPrincipal6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(separador6, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel55)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtbComandoEmpilhadeira, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnEnviarComandoEmpilhadeira)
+                    .addComponent(btnLimparConsoleEmpilhadeira)
+                    .addComponent(ckbCR)
+                    .addComponent(ckbLF)
+                    .addComponent(ckbNULL))
+                .addContainerGap())
         );
 
         tbpaneEmpilhadeira.addTab("Geral", panelGeral);
@@ -403,12 +725,6 @@ public class Main extends javax.swing.JFrame {
         jLabel7.setText("Clen:");
 
         jLabel8.setText("Cout:");
-
-        txtfClenAnt1.setEditable(false);
-
-        txtfCoutAnt1.setEditable(false);
-
-        txtfCinAnt1.setEditable(false);
 
         jLabel10.setText("dbm (0-125)");
 
@@ -534,12 +850,6 @@ public class Main extends javax.swing.JFrame {
 
         jLabel19.setText("Cout:");
 
-        txtfClenAnt2.setEditable(false);
-
-        txtfCoutAnt2.setEditable(false);
-
-        txtfCinAnt2.setEditable(false);
-
         jLabel21.setText("dbm (0-125)");
 
         jLabel22.setText("(0-32)");
@@ -660,12 +970,6 @@ public class Main extends javax.swing.JFrame {
 
         jLabel43.setText("Cout:");
 
-        txtfClenAnt3.setEditable(false);
-
-        txtfCoutAnt3.setEditable(false);
-
-        txtfCinAnt3.setEditable(false);
-
         jLabel45.setText("dbm (0-125)");
 
         jLabel46.setText("(0-32)");
@@ -785,12 +1089,6 @@ public class Main extends javax.swing.JFrame {
         jLabel30.setText("Clen:");
 
         jLabel31.setText("Cout:");
-
-        txtfClenAnt4.setEditable(false);
-
-        txtfCoutAnt4.setEditable(false);
-
-        txtfCinAnt4.setEditable(false);
 
         jLabel33.setText("dbm (0-125)");
 
@@ -939,12 +1237,917 @@ public class Main extends javax.swing.JFrame {
                 .addGroup(panelAntenasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnCalibracaoAuto)
                     .addComponent(jLabel14))
-                .addGap(0, 18, Short.MAX_VALUE))
+                .addGap(0, 241, Short.MAX_VALUE))
         );
 
         tbpaneEmpilhadeira.addTab("Antenas", panelAntenas);
 
         tbpanemodelo.addTab("tab1", tbpaneEmpilhadeira);
+
+        lblParamGerais1.setText("Parâmetros Gerais:");
+
+        lblIdEmpilhadeira1.setText("Id do portal:");
+
+        lblServidorPrincipal1.setText("Servidor principal (SARS)");
+
+        lblIpPrincipal1.setText("IP:");
+
+        lblPortaPrincipal1.setText("Porta:");
+
+        txtfIdPortal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtfIdPortalActionPerformed(evt);
+            }
+        });
+
+        lblDicaIdLeitor2.setText("(4 caracteres 0-9 / A-Z)");
+
+        lblDicaIpPrincipal1.setText("(192.168.0.2)");
+
+        lblDicaPortaPrincipal1.setText("(0-65534)");
+
+        separador4.setOrientation(javax.swing.SwingConstants.VERTICAL);
+
+        lblIpBackup1.setText("IP:");
+
+        lblServidorBackup1.setText("Servidor backup (SARS)");
+
+        lblPortaBackup1.setText("Porta:");
+
+        lblDicaPortaBackup1.setText("(0-65534)");
+
+        lblDicaIpBackup1.setText("(192.168.0.2)");
+
+        jLabel20.setText("Mhz");
+
+        jLabel53.setText("Frequência de operação:");
+
+        lblIdEmpilhadeira2.setText("Modo de operação:");
+
+        txtfModoOperacaoPortal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtfModoOperacaoPortalActionPerformed(evt);
+            }
+        });
+
+        lblIdEmpilhadeira3.setText("Atraso para degradar leitura:");
+
+        txtfAtrasoParaDegradarLeituraPortal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtfAtrasoParaDegradarLeituraPortalActionPerformed(evt);
+            }
+        });
+
+        lblDicaIdLeitor4.setText("ms");
+
+        txtfSensibilidadeAntenasPortal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtfSensibilidadeAntenasPortalActionPerformed(evt);
+            }
+        });
+
+        lblDicaIdLeitor5.setText("dbm (0-125)");
+
+        lblIdEmpilhadeira4.setText("Sensibilidade das antenas:");
+
+        jLabel103.setText("Tempo para inatividade:");
+
+        lblIdEmpilhadeira5.setText("Número de antenas lidas:");
+
+        txtfNumAntenasLidasPortal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtfNumAntenasLidasPortalActionPerformed(evt);
+            }
+        });
+
+        lblDicaIdLeitor3.setText("2 ou 4");
+
+        jLabel104.setText("ms");
+
+        separador5.setOrientation(javax.swing.SwingConstants.VERTICAL);
+
+        jLabel105.setText("Repetição de leitura:");
+
+        jLabel106.setText("leituras/segundo");
+
+        cbDHCP_Portal.setSelected(true);
+        cbDHCP_Portal.setText("Habilitar DHCP");
+        cbDHCP_Portal.setName("cbDHCP_Portal"); // NOI18N
+        cbDHCP_Portal.addItemListener(new java.awt.event.ItemListener() {
+            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+                cbDHCP_PortalItemStateChanged(evt);
+            }
+        });
+
+        txtbIp_Portal.setEditable(false);
+        txtbIp_Portal.setName("txtbIp_Portal"); // NOI18N
+
+        lblIpPrincipal6.setText("IP:");
+
+        lblIpPrincipal7.setText("Gateway:");
+
+        lblIpPrincipal8.setText("Máscara:");
+
+        lblIpPrincipal9.setText("MAC:");
+
+        txtbMac_Portal.setName("txtbMac_Portal"); // NOI18N
+
+        lblDicaIpPrincipal7.setText("OBS: O bit zero do primeiro byte do MAC não pode ser 1");
+
+        lblDicaIpPrincipal8.setText("(FF:FF:FF:FF:FF:FF)");
+
+        lblDicaIpPrincipal9.setText("(255.255.255.0)");
+
+        lblDicaIpPrincipal10.setText("(192.168.0.2)");
+
+        lblDicaIpPrincipal11.setText("(192.168.0.2)");
+
+        txtbGateway_Portal.setEditable(false);
+        txtbGateway_Portal.setName("txtbGateway_Portal"); // NOI18N
+
+        txtbMask_Portal.setEditable(false);
+        txtbMask_Portal.setName("txtbMask_Portal"); // NOI18N
+
+        jLabel60.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel60.setText("Console:");
+
+        txtaSaidaPromptPortal.setColumns(20);
+        txtaSaidaPromptPortal.setRows(5);
+        txtaSaidaPromptPortal.setWrapStyleWord(true);
+        txtaSaidaPromptPortal.setName("txtaSaidaPromptPortal"); // NOI18N
+        jScrollPane2.setViewportView(txtaSaidaPromptPortal);
+
+        txtbComandoPortal.setName("txtbComandoPortal"); // NOI18N
+
+        btnEnviarComandoPortal.setText("Enviar");
+        btnEnviarComandoPortal.setName("btnEnviarComandoPortal"); // NOI18N
+        btnEnviarComandoPortal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEnviarComandoPortalActionPerformed(evt);
+            }
+        });
+
+        btnLimparConsolePortal.setText("Limpar console");
+        btnLimparConsolePortal.setName("btnLimparConsolePortal"); // NOI18N
+        btnLimparConsolePortal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnLimparConsolePortalActionPerformed(evt);
+            }
+        });
+
+        ckbCR_Portal.setText("<CR>");
+        ckbCR_Portal.setName("ckbCR_Portal"); // NOI18N
+
+        ckbLF_Portal.setText("<LF>");
+        ckbLF_Portal.setName("ckbLF_Portal"); // NOI18N
+
+        ckbNULL_Portal.setText("NULL");
+        ckbNULL_Portal.setName("ckbNULL_Portal"); // NOI18N
+
+        separador10.setOrientation(javax.swing.SwingConstants.VERTICAL);
+
+        javax.swing.GroupLayout panelGeral1Layout = new javax.swing.GroupLayout(panelGeral1);
+        panelGeral1.setLayout(panelGeral1Layout);
+        panelGeral1Layout.setHorizontalGroup(
+            panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelGeral1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelGeral1Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel60, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblDicaIpPrincipal7, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panelGeral1Layout.createSequentialGroup()
+                                .addComponent(lblIpPrincipal7)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtbGateway_Portal, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lblDicaIpPrincipal10))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panelGeral1Layout.createSequentialGroup()
+                                .addComponent(lblIpPrincipal6)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtbIp_Portal, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lblDicaIpPrincipal11))
+                            .addComponent(cbDHCP_Portal, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panelGeral1Layout.createSequentialGroup()
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panelGeral1Layout.createSequentialGroup()
+                                        .addComponent(lblIpPrincipal9)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(txtbMac_Portal))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panelGeral1Layout.createSequentialGroup()
+                                        .addComponent(lblIpPrincipal8)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(txtbMask_Portal, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(lblDicaIpPrincipal9)
+                                    .addComponent(lblDicaIpPrincipal8, javax.swing.GroupLayout.Alignment.TRAILING))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(separador10, javax.swing.GroupLayout.PREFERRED_SIZE, 7, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(panelGeral1Layout.createSequentialGroup()
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(lblPortaPrincipal1)
+                                    .addComponent(lblIpPrincipal1))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(panelGeral1Layout.createSequentialGroup()
+                                        .addComponent(txtfIpPrincipalPortal, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(lblDicaIpPrincipal1))
+                                    .addGroup(panelGeral1Layout.createSequentialGroup()
+                                        .addComponent(txtfPortaPrincipalPortal, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(lblDicaPortaPrincipal1))))
+                            .addGroup(panelGeral1Layout.createSequentialGroup()
+                                .addGap(3, 3, 3)
+                                .addComponent(lblServidorPrincipal1)))
+                        .addGap(14, 14, 14)
+                        .addComponent(separador4, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(panelGeral1Layout.createSequentialGroup()
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(lblPortaBackup1, javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(lblIpBackup1, javax.swing.GroupLayout.Alignment.TRAILING))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(panelGeral1Layout.createSequentialGroup()
+                                        .addComponent(txtfPortaBackupPortal, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(lblDicaPortaBackup1))
+                                    .addGroup(panelGeral1Layout.createSequentialGroup()
+                                        .addComponent(txtfIpBackupPortal, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(lblDicaIpBackup1))))
+                            .addComponent(lblServidorBackup1))
+                        .addGap(462, 462, 462))
+                    .addGroup(panelGeral1Layout.createSequentialGroup()
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblParamGerais1)
+                            .addGroup(panelGeral1Layout.createSequentialGroup()
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(panelGeral1Layout.createSequentialGroup()
+                                        .addGap(7, 7, 7)
+                                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(lblIdEmpilhadeira2)
+                                            .addComponent(lblIdEmpilhadeira1)
+                                            .addComponent(lblIdEmpilhadeira3)))
+                                    .addGroup(panelGeral1Layout.createSequentialGroup()
+                                        .addGap(8, 8, 8)
+                                        .addComponent(jLabel53)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(txtfFrequenciaDeOperacaoPortal, javax.swing.GroupLayout.DEFAULT_SIZE, 61, Short.MAX_VALUE)
+                                    .addComponent(txtfAtrasoParaDegradarLeituraPortal, javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(txtfModoOperacaoPortal)
+                                    .addComponent(txtfIdPortal))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(lblDicaIdLeitor4)
+                                    .addComponent(lblDicaIdLeitor2)
+                                    .addComponent(jLabel20))))
+                        .addGap(18, 18, 18)
+                        .addComponent(separador5, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblIdEmpilhadeira5)
+                            .addGroup(panelGeral1Layout.createSequentialGroup()
+                                .addGap(1, 1, 1)
+                                .addComponent(jLabel103))
+                            .addComponent(lblIdEmpilhadeira4)
+                            .addComponent(jLabel105))
+                        .addGap(24, 24, 24)
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(panelGeral1Layout.createSequentialGroup()
+                                .addComponent(txtfRepeticaoNaLeituraPortal, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel106))
+                            .addGroup(panelGeral1Layout.createSequentialGroup()
+                                .addComponent(txtfTempoInatividadeTagPortal, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel104))
+                            .addGroup(panelGeral1Layout.createSequentialGroup()
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(txtfSensibilidadeAntenasPortal)
+                                    .addComponent(txtfNumAntenasLidasPortal, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(lblDicaIdLeitor5)
+                                    .addComponent(lblDicaIdLeitor3))))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(panelGeral1Layout.createSequentialGroup()
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 785, Short.MAX_VALUE)
+                            .addComponent(separador11, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panelGeral1Layout.createSequentialGroup()
+                                .addComponent(txtbComandoPortal, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(btnEnviarComandoPortal)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnLimparConsolePortal)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(ckbCR_Portal)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(ckbLF_Portal)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(ckbNULL_Portal))
+                            .addComponent(separador8, javax.swing.GroupLayout.Alignment.LEADING))
+                        .addGap(0, 0, Short.MAX_VALUE))))
+        );
+        panelGeral1Layout.setVerticalGroup(
+            panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelGeral1Layout.createSequentialGroup()
+                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelGeral1Layout.createSequentialGroup()
+                        .addGap(16, 16, 16)
+                        .addComponent(lblParamGerais1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel53)
+                            .addComponent(txtfFrequenciaDeOperacaoPortal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel20))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblIdEmpilhadeira1)
+                            .addComponent(txtfIdPortal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblDicaIdLeitor2))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblIdEmpilhadeira2)
+                            .addComponent(txtfModoOperacaoPortal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblIdEmpilhadeira3)
+                            .addComponent(txtfAtrasoParaDegradarLeituraPortal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblDicaIdLeitor4)))
+                    .addGroup(panelGeral1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(separador5, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(panelGeral1Layout.createSequentialGroup()
+                        .addGap(38, 38, 38)
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel103)
+                            .addComponent(txtfTempoInatividadeTagPortal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel104))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblIdEmpilhadeira5)
+                            .addComponent(txtfNumAntenasLidasPortal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblDicaIdLeitor3))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblIdEmpilhadeira4)
+                            .addComponent(txtfSensibilidadeAntenasPortal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblDicaIdLeitor5))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel105)
+                            .addComponent(txtfRepeticaoNaLeituraPortal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel106))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(separador8, javax.swing.GroupLayout.PREFERRED_SIZE, 12, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelGeral1Layout.createSequentialGroup()
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(panelGeral1Layout.createSequentialGroup()
+                                .addComponent(cbDHCP_Portal)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(lblIpPrincipal6)
+                                    .addComponent(txtbIp_Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lblDicaIpPrincipal11))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(lblIpPrincipal7)
+                                    .addComponent(txtbGateway_Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lblDicaIpPrincipal10))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(lblIpPrincipal8)
+                                    .addComponent(txtbMask_Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lblDicaIpPrincipal9))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(lblIpPrincipal9)
+                                    .addComponent(txtbMac_Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lblDicaIpPrincipal8)))
+                            .addComponent(separador10, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(separador4, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lblDicaIpPrincipal7))
+                    .addGroup(panelGeral1Layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(panelGeral1Layout.createSequentialGroup()
+                                .addComponent(lblServidorPrincipal1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(lblIpPrincipal1)
+                                    .addComponent(txtfIpPrincipalPortal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lblDicaIpPrincipal1))
+                                .addGap(9, 9, 9)
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(txtfPortaPrincipalPortal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lblPortaPrincipal1)
+                                    .addComponent(lblDicaPortaPrincipal1)))
+                            .addGroup(panelGeral1Layout.createSequentialGroup()
+                                .addComponent(lblServidorBackup1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(lblIpBackup1)
+                                    .addComponent(txtfIpBackupPortal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lblDicaIpBackup1))
+                                .addGap(9, 9, 9)
+                                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(txtfPortaBackupPortal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lblPortaBackup1)
+                                    .addComponent(lblDicaPortaBackup1))))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(separador11, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel60)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtbComandoPortal, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnEnviarComandoPortal)
+                    .addComponent(btnLimparConsolePortal)
+                    .addComponent(ckbCR_Portal)
+                    .addComponent(ckbLF_Portal)
+                    .addComponent(ckbNULL_Portal))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        tbpanePortal.addTab("Geral", panelGeral1);
+
+        panelAntena5.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+
+        jLabel54.setText("Antena 1:");
+
+        jLabel56.setText("Capacitores:");
+
+        jLabel57.setText("Cin: ");
+
+        jLabel58.setText("Clen:");
+
+        jLabel59.setText("Cout:");
+
+        txtfClenAnt1Portal.setEditable(false);
+
+        txtfCoutAnt1Portal.setEditable(false);
+
+        txtfCinAnt1Portal.setEditable(false);
+
+        jLabel61.setText("(0-32)");
+
+        jLabel62.setText("(0-32)");
+
+        jLabel63.setText("(0-32)");
+
+        jLabel64.setText("Reflexão:");
+
+        txtfReflexaoAnt1Portal.setEditable(false);
+
+        jLabel65.setText("dbm");
+
+        javax.swing.GroupLayout panelAntena5Layout = new javax.swing.GroupLayout(panelAntena5);
+        panelAntena5.setLayout(panelAntena5Layout);
+        panelAntena5Layout.setHorizontalGroup(
+            panelAntena5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelAntena5Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelAntena5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel54)
+                    .addGroup(panelAntena5Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addGroup(panelAntena5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(panelAntena5Layout.createSequentialGroup()
+                                .addGroup(panelAntena5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel58)
+                                    .addComponent(jLabel59))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(panelAntena5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(panelAntena5Layout.createSequentialGroup()
+                                        .addComponent(txtfCoutAnt1Portal, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jLabel63))
+                                    .addGroup(panelAntena5Layout.createSequentialGroup()
+                                        .addComponent(txtfClenAnt1Portal, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jLabel62))))
+                            .addGroup(panelAntena5Layout.createSequentialGroup()
+                                .addComponent(jLabel64)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtfReflexaoAnt1Portal)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel65))
+                    .addComponent(jLabel56)
+                    .addGroup(panelAntena5Layout.createSequentialGroup()
+                        .addGap(15, 15, 15)
+                        .addComponent(jLabel57)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(txtfCinAnt1Portal, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel61)))
+                .addContainerGap(49, Short.MAX_VALUE))
+        );
+        panelAntena5Layout.setVerticalGroup(
+            panelAntena5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelAntena5Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel54)
+                .addGap(32, 32, 32)
+                .addComponent(jLabel56)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelAntena5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtfCinAnt1Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel61)
+                    .addComponent(jLabel57))
+                .addGap(9, 9, 9)
+                .addGroup(panelAntena5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelAntena5Layout.createSequentialGroup()
+                        .addComponent(jLabel58)
+                        .addGap(15, 15, 15)
+                        .addComponent(jLabel59))
+                    .addGroup(panelAntena5Layout.createSequentialGroup()
+                        .addGroup(panelAntena5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(txtfClenAnt1Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel62))
+                        .addGap(9, 9, 9)
+                        .addGroup(panelAntena5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(txtfCoutAnt1Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel63))))
+                .addGap(9, 9, 9)
+                .addGroup(panelAntena5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtfReflexaoAnt1Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel65)
+                    .addComponent(jLabel64))
+                .addContainerGap(46, Short.MAX_VALUE))
+        );
+
+        panelAntena6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+
+        jLabel66.setText("Antena 2:");
+
+        jLabel68.setText("Capacitores:");
+
+        jLabel69.setText("Cin: ");
+
+        jLabel70.setText("Clen:");
+
+        jLabel71.setText("Cout:");
+
+        txtfClenAnt2Portal.setEditable(false);
+
+        txtfCoutAnt2Portal.setEditable(false);
+
+        txtfCinAnt2Portal.setEditable(false);
+
+        jLabel73.setText("(0-32)");
+
+        jLabel74.setText("(0-32)");
+
+        jLabel75.setText("(0-32)");
+
+        jLabel76.setText("Reflexão:");
+
+        jLabel77.setText("dbm");
+
+        txtfReflexaoAnt2Portal.setEditable(false);
+
+        javax.swing.GroupLayout panelAntena6Layout = new javax.swing.GroupLayout(panelAntena6);
+        panelAntena6.setLayout(panelAntena6Layout);
+        panelAntena6Layout.setHorizontalGroup(
+            panelAntena6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelAntena6Layout.createSequentialGroup()
+                .addGroup(panelAntena6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelAntena6Layout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addGroup(panelAntena6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(panelAntena6Layout.createSequentialGroup()
+                                .addGap(5, 5, 5)
+                                .addComponent(jLabel69)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtfCinAnt2Portal, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel73))
+                            .addGroup(panelAntena6Layout.createSequentialGroup()
+                                .addGroup(panelAntena6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panelAntena6Layout.createSequentialGroup()
+                                        .addComponent(jLabel76)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(txtfReflexaoAnt2Portal))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panelAntena6Layout.createSequentialGroup()
+                                        .addGroup(panelAntena6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel70)
+                                            .addComponent(jLabel71))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addGroup(panelAntena6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(panelAntena6Layout.createSequentialGroup()
+                                                .addComponent(txtfCoutAnt2Portal, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(jLabel75))
+                                            .addGroup(panelAntena6Layout.createSequentialGroup()
+                                                .addComponent(txtfClenAnt2Portal, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(jLabel74)))))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel77))))
+                    .addGroup(panelAntena6Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(panelAntena6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel66)
+                            .addComponent(jLabel68))))
+                .addContainerGap(39, Short.MAX_VALUE))
+        );
+        panelAntena6Layout.setVerticalGroup(
+            panelAntena6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelAntena6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel66)
+                .addGap(32, 32, 32)
+                .addComponent(jLabel68)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelAntena6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtfCinAnt2Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel73)
+                    .addComponent(jLabel69))
+                .addGap(9, 9, 9)
+                .addGroup(panelAntena6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel70)
+                    .addComponent(txtfClenAnt2Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel74))
+                .addGap(9, 9, 9)
+                .addGroup(panelAntena6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtfCoutAnt2Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel71)
+                    .addComponent(jLabel75))
+                .addGap(9, 9, 9)
+                .addGroup(panelAntena6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtfReflexaoAnt2Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel77)
+                    .addComponent(jLabel76))
+                .addContainerGap(46, Short.MAX_VALUE))
+        );
+
+        panelAntena7.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+
+        jLabel78.setText("Antena 3:");
+
+        jLabel80.setText("Capacitores:");
+
+        jLabel81.setText("Cin: ");
+
+        jLabel82.setText("Clen:");
+
+        jLabel83.setText("Cout:");
+
+        txtfClenAnt3Portal.setEditable(false);
+
+        txtfCoutAnt3Portal.setEditable(false);
+
+        txtfCinAnt3Portal.setEditable(false);
+
+        jLabel85.setText("(0-32)");
+
+        jLabel86.setText("(0-32)");
+
+        jLabel87.setText("(0-32)");
+
+        jLabel88.setText("dbm");
+
+        jLabel89.setText("Reflexão:");
+
+        txtfReflexaoAnt3Portal.setEditable(false);
+
+        javax.swing.GroupLayout panelAntena7Layout = new javax.swing.GroupLayout(panelAntena7);
+        panelAntena7.setLayout(panelAntena7Layout);
+        panelAntena7Layout.setHorizontalGroup(
+            panelAntena7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelAntena7Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelAntena7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel78)
+                    .addGroup(panelAntena7Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addGroup(panelAntena7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(panelAntena7Layout.createSequentialGroup()
+                                .addGap(5, 5, 5)
+                                .addComponent(jLabel81)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtfCinAnt3Portal, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel85))
+                            .addGroup(panelAntena7Layout.createSequentialGroup()
+                                .addGroup(panelAntena7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panelAntena7Layout.createSequentialGroup()
+                                        .addComponent(jLabel89)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(txtfReflexaoAnt3Portal))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panelAntena7Layout.createSequentialGroup()
+                                        .addGroup(panelAntena7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel82)
+                                            .addComponent(jLabel83))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addGroup(panelAntena7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(panelAntena7Layout.createSequentialGroup()
+                                                .addComponent(txtfCoutAnt3Portal, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(jLabel87))
+                                            .addGroup(panelAntena7Layout.createSequentialGroup()
+                                                .addComponent(txtfClenAnt3Portal, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(jLabel86)))))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel88))))
+                    .addComponent(jLabel80))
+                .addContainerGap(39, Short.MAX_VALUE))
+        );
+        panelAntena7Layout.setVerticalGroup(
+            panelAntena7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelAntena7Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel78)
+                .addGap(32, 32, 32)
+                .addComponent(jLabel80)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelAntena7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtfCinAnt3Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel85)
+                    .addComponent(jLabel81))
+                .addGap(9, 9, 9)
+                .addGroup(panelAntena7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel82)
+                    .addComponent(txtfClenAnt3Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel86))
+                .addGap(9, 9, 9)
+                .addGroup(panelAntena7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtfCoutAnt3Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel83)
+                    .addComponent(jLabel87))
+                .addGap(9, 9, 9)
+                .addGroup(panelAntena7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtfReflexaoAnt3Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel88)
+                    .addComponent(jLabel89))
+                .addContainerGap(46, Short.MAX_VALUE))
+        );
+
+        panelAntena8.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+
+        jLabel90.setText("Antena 4:");
+
+        jLabel92.setText("Capacitores:");
+
+        jLabel93.setText("Cin: ");
+
+        jLabel94.setText("Clen:");
+
+        jLabel95.setText("Cout:");
+
+        txtfClenAnt4Portal.setEditable(false);
+
+        txtfCoutAnt4Portal.setEditable(false);
+
+        txtfCinAnt4Portal.setEditable(false);
+
+        jLabel97.setText("(0-32)");
+
+        jLabel98.setText("(0-32)");
+
+        jLabel99.setText("(0-32)");
+
+        jLabel100.setText("Reflexão:");
+
+        jLabel101.setText("dbm");
+
+        txtfReflexaoAnt4Portal.setEditable(false);
+
+        javax.swing.GroupLayout panelAntena8Layout = new javax.swing.GroupLayout(panelAntena8);
+        panelAntena8.setLayout(panelAntena8Layout);
+        panelAntena8Layout.setHorizontalGroup(
+            panelAntena8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelAntena8Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelAntena8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel90)
+                    .addGroup(panelAntena8Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addGroup(panelAntena8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(panelAntena8Layout.createSequentialGroup()
+                                .addGap(5, 5, 5)
+                                .addComponent(jLabel93)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtfCinAnt4Portal, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel97))
+                            .addGroup(panelAntena8Layout.createSequentialGroup()
+                                .addGroup(panelAntena8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panelAntena8Layout.createSequentialGroup()
+                                        .addComponent(jLabel100)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(txtfReflexaoAnt4Portal))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panelAntena8Layout.createSequentialGroup()
+                                        .addGroup(panelAntena8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel94)
+                                            .addComponent(jLabel95))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addGroup(panelAntena8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(panelAntena8Layout.createSequentialGroup()
+                                                .addComponent(txtfCoutAnt4Portal, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(jLabel99))
+                                            .addGroup(panelAntena8Layout.createSequentialGroup()
+                                                .addComponent(txtfClenAnt4Portal, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(jLabel98)))))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel101))))
+                    .addComponent(jLabel92))
+                .addContainerGap(39, Short.MAX_VALUE))
+        );
+        panelAntena8Layout.setVerticalGroup(
+            panelAntena8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelAntena8Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel90)
+                .addGap(32, 32, 32)
+                .addComponent(jLabel92)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelAntena8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtfCinAnt4Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel97)
+                    .addComponent(jLabel93))
+                .addGap(9, 9, 9)
+                .addGroup(panelAntena8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel94)
+                    .addComponent(txtfClenAnt4Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel98))
+                .addGap(9, 9, 9)
+                .addGroup(panelAntena8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtfCoutAnt4Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel95)
+                    .addComponent(jLabel99))
+                .addGap(9, 9, 9)
+                .addGroup(panelAntena8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtfReflexaoAnt4Portal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel101)
+                    .addComponent(jLabel100))
+                .addContainerGap(46, Short.MAX_VALUE))
+        );
+
+        btnCalibracaoAutoPortal.setText("Calibração automática");
+        btnCalibracaoAutoPortal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCalibracaoAutoPortalActionPerformed(evt);
+            }
+        });
+
+        jLabel102.setText("AVISO: Sempre realizar a calibração automática com as antenas conectadas!");
+
+        javax.swing.GroupLayout panelAntenas1Layout = new javax.swing.GroupLayout(panelAntenas1);
+        panelAntenas1.setLayout(panelAntenas1Layout);
+        panelAntenas1Layout.setHorizontalGroup(
+            panelAntenas1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelAntenas1Layout.createSequentialGroup()
+                .addComponent(panelAntena5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(panelAntena6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(panelAntena7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(panelAntena8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(panelAntenas1Layout.createSequentialGroup()
+                .addGap(18, 18, 18)
+                .addComponent(btnCalibracaoAutoPortal)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel102)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        panelAntenas1Layout.setVerticalGroup(
+            panelAntenas1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelAntenas1Layout.createSequentialGroup()
+                .addGroup(panelAntenas1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(panelAntena6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(panelAntena5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(panelAntena7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(panelAntena8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(panelAntenas1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnCalibracaoAutoPortal)
+                    .addComponent(jLabel102))
+                .addGap(0, 241, Short.MAX_VALUE))
+        );
+
+        tbpanePortal.addTab("Antenas", panelAntenas1);
+
+        tbpanemodelo.addTab("tab1", tbpanePortal);
 
         toolbarPrincipal.setRollover(true);
         toolbarPrincipal.setMinimumSize(new java.awt.Dimension(124, 32));
@@ -1014,6 +2217,21 @@ public class Main extends javax.swing.JFrame {
         });
         jToolBar1.add(btnAtualizar);
 
+        btnFecharConexaoSerial.setText("Fechar conexão");
+        btnFecharConexaoSerial.setFocusable(false);
+        btnFecharConexaoSerial.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnFecharConexaoSerial.setMaximumSize(new java.awt.Dimension(110, 30));
+        btnFecharConexaoSerial.setMinimumSize(new java.awt.Dimension(110, 30));
+        btnFecharConexaoSerial.setName("btnFecharConexaoSerial"); // NOI18N
+        btnFecharConexaoSerial.setPreferredSize(new java.awt.Dimension(110, 30));
+        btnFecharConexaoSerial.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        btnFecharConexaoSerial.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnFecharConexaoSerialActionPerformed(evt);
+            }
+        });
+        jToolBar1.add(btnFecharConexaoSerial);
+
         toolbarPrincipal.add(jToolBar1);
 
         menubarArquivo.setText("Arquivo");
@@ -1031,6 +2249,11 @@ public class Main extends javax.swing.JFrame {
         menuNovoArquivoConfig.add(menuNovoArqConfigEmp);
 
         menuNovoArqConfigPortal.setText("Portal");
+        menuNovoArqConfigPortal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuNovoArqConfigPortalActionPerformed(evt);
+            }
+        });
         menuNovoArquivoConfig.add(menuNovoArqConfigPortal);
 
         menuNovo.add(menuNovoArquivoConfig);
@@ -1089,19 +2312,19 @@ public class Main extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(toolbarPrincipal, javax.swing.GroupLayout.DEFAULT_SIZE, 842, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(tbpanemodelo, javax.swing.GroupLayout.DEFAULT_SIZE, 814, Short.MAX_VALUE)
+                .addComponent(tbpanemodelo, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                 .addContainerGap())
-            .addComponent(toolbarPrincipal, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(toolbarPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(tbpanemodelo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(tbpanemodelo, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pack();
@@ -1109,11 +2332,12 @@ public class Main extends javax.swing.JFrame {
 
     private void menuNovoArqConfigEmpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuNovoArqConfigEmpActionPerformed
         // TODO add your handling code here:
+        tbpanemodelo.removeAll();
+        equipamentosAbertos.clear();
+        
         Empilhadeira novaEmpilhadeira = new Empilhadeira();
         
-        salvarArquivo(novaEmpilhadeira);
-        
-        tbpanemodelo.removeAll();
+        salvarArquivo(novaEmpilhadeira);    
         
         if(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).tipoDoProduto == LeitorMarsOne.TipoProduto.EMPILHADEIRA){
             adicionarAbaDeEmpilhadeira(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).nomeDoArquivo,((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1))); 
@@ -1132,17 +2356,13 @@ public class Main extends javax.swing.JFrame {
         sobre.setVisible(true);
     }//GEN-LAST:event_menuSobreActionPerformed
 
-    private void txtfIdEmpilhadeiraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtfIdEmpilhadeiraActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtfIdEmpilhadeiraActionPerformed
-
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
         // TODO add your handling code here:
         empresa             = "Control + Plus";        
         autor               = "Vitor M. dos S. Alho";
         versao              = "01";
-        revisao             = "00";
-        dataUltimaAlteracao = "18/03/2020";
+        revisao             = "02";
+        dataUltimaAlteracao = "07/07/2020";
         
         sobre = new Sobre();
         
@@ -1150,6 +2370,7 @@ public class Main extends javax.swing.JFrame {
         tbpanemodelo.setVisible(false);
         
         tbpaneEmpilhadeira.setVisible(false);
+        tbpanePortal.setVisible(false);
         
         atualizarPortasCom();       
     }//GEN-LAST:event_formWindowOpened
@@ -1163,26 +2384,44 @@ public class Main extends javax.swing.JFrame {
         // TODO add your handling code here:
         int posicao = 0;
         
-            for(int i=0;i<equipamentosAbertos.size();i++){
-                if(tbpanemodelo.indexOfTab(((LeitorMarsOne)equipamentosAbertos.get(i)).nomeDoArquivo) >= 0){
-                    posicao = tbpanemodelo.indexOfTab(((LeitorMarsOne)equipamentosAbertos.get(i)).nomeDoArquivo);
-                }
-            } 
-            
-        fecharConexaoSerial();
-        salvar();
-        gravarParametrosNoLeitor((LeitorMarsOne)equipamentosAbertos.get(posicao),cbPorts.getSelectedItem().toString());
+        if(tbpanemodelo.isVisible()){
+            atualizarPortasCom();
         
-        LeitorMarsOne novoLeitor=null;
-        novoLeitor = lerParametrosDoLeitor(cbPorts.getSelectedItem().toString());
+            if(cbPorts.getItemCount() > 0){
+                try{        
+                    for(int i=0;i<equipamentosAbertos.size();i++){
+                        if(tbpanemodelo.indexOfTab(((LeitorMarsOne)equipamentosAbertos.get(i)).nomeDoArquivo) >= 0){
+                            posicao = tbpanemodelo.indexOfTab(((LeitorMarsOne)equipamentosAbertos.get(i)).nomeDoArquivo);
+                        }
+                    } 
 
-        if(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).tipoDoProduto == LeitorMarsOne.TipoProduto.EMPILHADEIRA){
-            adicionarAbaDeEmpilhadeira(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).nomeDoArquivo,novoLeitor); 
-            tbpanemodelo.setVisible(true); 
+                    fecharConexaoSerial();
+                    salvar();
+                    gravarParametrosNoLeitor((LeitorMarsOne)equipamentosAbertos.get(posicao),cbPorts.getSelectedItem().toString());
+                    
+                    LeitorMarsOne novoLeitor=null;
+                    novoLeitor = lerParametrosDoLeitor(cbPorts.getSelectedItem().toString());
+
+                    if(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).tipoDoProduto == LeitorMarsOne.TipoProduto.EMPILHADEIRA){
+                        adicionarAbaDeEmpilhadeira(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).nomeDoArquivo,novoLeitor); 
+                        tbpanemodelo.setVisible(true); 
+                    }       
+                    JOptionPane.showMessageDialog(null, "Parâmetros gravados com sucesso", "Aviso!",JOptionPane.INFORMATION_MESSAGE);
+                }
+                catch(Exception ex){
+                    JOptionPane.showMessageDialog(null, ex.getMessage(), "Aviso!",JOptionPane.INFORMATION_MESSAGE);
+                }
+                finally{
+                    fecharConexaoSerial();
+                }
+            }
+            else{
+                JOptionPane.showMessageDialog(null, "Não há nenhuma porta COM selecionada!", "Aviso!",JOptionPane.INFORMATION_MESSAGE);
+            }
         }
-        
-        JOptionPane.showMessageDialog(null, "Parâmetros gravados com sucesso", "Aviso!",JOptionPane.INFORMATION_MESSAGE);
-        fecharConexaoSerial();
+        else{
+            JOptionPane.showMessageDialog(null,"Não há nenhum perfil de configuração aberto!","Aviso!",JOptionPane.INFORMATION_MESSAGE);
+        }       
     }//GEN-LAST:event_btnGravarActionPerformed
 
     private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
@@ -1217,26 +2456,47 @@ public class Main extends javax.swing.JFrame {
 
     private void menuAbrirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuAbrirActionPerformed
         // TODO add your handling code here:
-        abrirArquivo();
+        tbpanemodelo.removeAll();
         
+        abrirArquivo();
+        /*
         if(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).tipoDoProduto == LeitorMarsOne.TipoProduto.EMPILHADEIRA){
             adicionarAbaDeEmpilhadeira(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).nomeDoArquivo,((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1))); 
             tbpanemodelo.setVisible(true); 
-        }
+        }*/
     }//GEN-LAST:event_menuAbrirActionPerformed
 
     private void btnLerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLerActionPerformed
         // TODO add your handling code here:]
-        LeitorMarsOne novoLeitor;
-        novoLeitor = lerParametrosDoLeitor(cbPorts.getSelectedItem().toString());
+        try{
+            atualizarPortasCom();
 
-        salvarArquivo(novoLeitor);
+            if(cbPorts.getItemCount() > 0){
+                LeitorMarsOne novoLeitor;
+                novoLeitor = lerParametrosDoLeitor(cbPorts.getSelectedItem().toString());              
+                
+                salvarArquivo(novoLeitor);
 
-        if(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).tipoDoProduto == LeitorMarsOne.TipoProduto.EMPILHADEIRA){
-            adicionarAbaDeEmpilhadeira(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).nomeDoArquivo,((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)));
-            tbpanemodelo.setVisible(true);
+                switch(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).tipoDoProduto){
+                    case EMPILHADEIRA:
+                        adicionarAbaDeEmpilhadeira(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).nomeDoArquivo,((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)));
+                        break;
+                    case PORTAL:
+                        adicionarAbaDePortal(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).nomeDoArquivo,((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)));
+                        break;
+                }
+                tbpanemodelo.setVisible(true);
+
+                fecharConexaoSerial();
+            }
+            else{
+                JOptionPane.showMessageDialog(null, "Não há nenhuma porta COM selecionada!", "Aviso!",JOptionPane.INFORMATION_MESSAGE);
+            }
         }
-        fecharConexaoSerial();
+        catch(Exception ex){
+            JOptionPane.showMessageDialog(null,"Não foi possivel comunicar com o dispositivo!\r\nMensagem do erro: "+ ex.getMessage(),"Erro!",JOptionPane.ERROR_MESSAGE);
+            fecharConexaoSerial();
+        }
     }//GEN-LAST:event_btnLerActionPerformed
 
     private void btnCalibracaoAutoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalibracaoAutoActionPerformed
@@ -1285,6 +2545,173 @@ public class Main extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_txtfRssiMinAnt4InputMethodTextChanged
 
+    private void btnCalibracaoAutoPortalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalibracaoAutoPortalActionPerformed
+        // TODO add your handling code here:
+        realizarCalibracaoAutomatica();
+        fecharConexaoSerial();
+    }//GEN-LAST:event_btnCalibracaoAutoPortalActionPerformed
+
+    private void menuNovoArqConfigPortalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuNovoArqConfigPortalActionPerformed
+        // TODO add your handling code here:
+        tbpanemodelo.removeAll();
+        equipamentosAbertos.clear();
+        
+        Portal novoPortal = new Portal();
+        
+        salvarArquivo(novoPortal);
+        
+        if(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).tipoDoProduto == LeitorMarsOne.TipoProduto.PORTAL){
+            adicionarAbaDePortal(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).nomeDoArquivo,((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1))); 
+            // colocar aba de portal
+            tbpanemodelo.setVisible(true); 
+        }
+    }//GEN-LAST:event_menuNovoArqConfigPortalActionPerformed
+
+    private void cbDHCP_EmpilhadeiraItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_cbDHCP_EmpilhadeiraItemStateChanged
+        // TODO add your handling code here:
+        if(cbDHCP_Empilhadeira.isSelected()){
+            txtbIp_Empilhadeira.setEditable(false);
+            txtbGateway_Empilhadeira.setEditable(false);
+            txtbMask_Empilhadeira.setEditable(false);
+        }
+        else{
+            txtbIp_Empilhadeira.setEditable(true);
+            txtbGateway_Empilhadeira.setEditable(true);
+            txtbMask_Empilhadeira.setEditable(true);
+        }
+    }//GEN-LAST:event_cbDHCP_EmpilhadeiraItemStateChanged
+
+    private void txtfIdEmpilhadeiraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtfIdEmpilhadeiraActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtfIdEmpilhadeiraActionPerformed
+
+    private void btnLimparConsoleEmpilhadeiraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLimparConsoleEmpilhadeiraActionPerformed
+        // TODO add your handling code here:
+        txtaSaidaPromptEmpilhadeira.setText("");
+    }//GEN-LAST:event_btnLimparConsoleEmpilhadeiraActionPerformed
+    
+    private void btnEnviarComandoEmpilhadeiraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviarComandoEmpilhadeiraActionPerformed
+        // TODO add your handling code here:
+        String bufferRecebimentoCOM;
+        String mensagem;
+        try{
+            txtaSaidaPromptEmpilhadeira.append(txtbComandoEmpilhadeira.getText().replace("\n","")+"\n");
+            
+            atualizarPortasCom();        
+            iniciarPortaSerial(cbPorts.getSelectedItem().toString());
+            
+            receivedData = "";
+            
+            mensagem = txtbComandoEmpilhadeira.getText();
+            
+            if(ckbCR.isSelected()){
+                mensagem += '\r';
+            }
+            if(ckbLF.isSelected()){
+                mensagem += '\n';
+            }
+            if(ckbNULL.isSelected()){
+                mensagem += '\0';
+            }
+                        
+            conexaoCOM.writeString(mensagem);
+
+            Thread.sleep(100);
+
+            //bufferRecebimentoCOM = receivedData;
+            /*
+            if(bufferRecebimentoCOM != null){
+                txtaSaidaPromptEmpilhadeira.append(bufferRecebimentoCOM.replace("\n","")+"\n");
+            }*/
+        }
+        catch(Exception ex){
+            JOptionPane.showMessageDialog(null, "Não foi possível acessar a porta COM", "Aviso!",JOptionPane.INFORMATION_MESSAGE);
+        }
+    }//GEN-LAST:event_btnEnviarComandoEmpilhadeiraActionPerformed
+
+    private void txtfNumAntenasLidasPortalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtfNumAntenasLidasPortalActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtfNumAntenasLidasPortalActionPerformed
+
+    private void txtfSensibilidadeAntenasPortalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtfSensibilidadeAntenasPortalActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtfSensibilidadeAntenasPortalActionPerformed
+
+    private void txtfAtrasoParaDegradarLeituraPortalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtfAtrasoParaDegradarLeituraPortalActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtfAtrasoParaDegradarLeituraPortalActionPerformed
+
+    private void txtfModoOperacaoPortalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtfModoOperacaoPortalActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtfModoOperacaoPortalActionPerformed
+
+    private void txtfIdPortalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtfIdPortalActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtfIdPortalActionPerformed
+
+    private void cbDHCP_PortalItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_cbDHCP_PortalItemStateChanged
+        // TODO add your handling code here:
+        if(cbDHCP_Portal.isSelected()){
+            txtbIp_Portal.setEditable(false);
+            txtbGateway_Portal.setEditable(false);
+            txtbMask_Portal.setEditable(false);
+        }
+        else{
+            txtbIp_Portal.setEditable(true);
+            txtbGateway_Portal.setEditable(true);
+            txtbMask_Portal.setEditable(true);
+        }
+    }//GEN-LAST:event_cbDHCP_PortalItemStateChanged
+
+    private void btnEnviarComandoPortalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviarComandoPortalActionPerformed
+        // TODO add your handling code here:
+        String bufferRecebimentoCOM;
+        String mensagem;
+        try{
+            txtaSaidaPromptPortal.append(txtbComandoPortal.getText().replace("\n","")+"\n");
+            
+            atualizarPortasCom();        
+            iniciarPortaSerial(cbPorts.getSelectedItem().toString());
+            
+            receivedData = "";
+            
+            mensagem = txtbComandoPortal.getText();
+            
+            if(ckbCR_Portal.isSelected()){
+                mensagem += '\r';
+            }
+            if(ckbLF_Portal.isSelected()){
+                mensagem += '\n';
+            }
+            if(ckbNULL_Portal.isSelected()){
+                mensagem += '\0';
+            }
+                        
+            conexaoCOM.writeString(mensagem);
+
+            Thread.sleep(100);
+
+            //bufferRecebimentoCOM = receivedData;
+            /*
+            if(bufferRecebimentoCOM != null){
+                txtaSaidaPromptEmpilhadeira.append(bufferRecebimentoCOM.replace("\n","")+"\n");
+            }*/
+        }
+        catch(Exception ex){
+            JOptionPane.showMessageDialog(null, "Não foi possível acessar a porta COM", "Aviso!",JOptionPane.INFORMATION_MESSAGE);
+        }
+    }//GEN-LAST:event_btnEnviarComandoPortalActionPerformed
+
+    private void btnLimparConsolePortalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLimparConsolePortalActionPerformed
+        // TODO add your handling code here:
+        txtaSaidaPromptPortal.setText("");
+    }//GEN-LAST:event_btnLimparConsolePortalActionPerformed
+
+    private void btnFecharConexaoSerialActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFecharConexaoSerialActionPerformed
+        // TODO add your handling code here:
+        fecharConexaoSerial();
+    }//GEN-LAST:event_btnFecharConexaoSerialActionPerformed
+
     static Sobre sobre;
     
     // BLOCO EXIBIDO NO FRAME SOBRE
@@ -1315,51 +2742,118 @@ public class Main extends javax.swing.JFrame {
         
             LeitorMarsOne leitorParaSalvar = (LeitorMarsOne)equipamentosAbertos.get(tbpanemodelo.indexOfTab(((LeitorMarsOne)equipamentosAbertos.get(posicao)).nomeDoArquivo));       
             
-            leitorParaSalvar.idDoLeitor = txtfIdEmpilhadeira.getText();
-            leitorParaSalvar.ssidWifi = txtfSsidWifi.getText();
-            leitorParaSalvar.senhaWifi = String.copyValueOf(txtfSenhaWifi.getPassword());
-            leitorParaSalvar.ipRemotoPrincipal = txtfIpPrincipal.getText();
-            leitorParaSalvar.portaRemotaPrincipal = txtfPortaPrincipal.getText();
-            leitorParaSalvar.ipRemotoSecundario = txtfIpBackup.getText();
-            leitorParaSalvar.portaRemotaSecundaria = txtfPortaBackup.getText();
-            leitorParaSalvar.antena1 = new Antena(1,0,0,0,0);
-            //leitorParaSalvar.antena1.setFrequencia(Integer.parseInt(txtfFrequenciaDeOperacao.getText()));
-            leitorParaSalvar.antena1.setAjuste(Integer.parseInt(txtfCinAnt1.getText()),Integer.parseInt(txtfClenAnt1.getText()),Integer.parseInt(txtfCoutAnt1.getText()));
-            txtfRssiMinAnt1.commitEdit();
-            leitorParaSalvar.antena1.setSensibilidade((Integer)txtfRssiMinAnt1.getValue());
-            leitorParaSalvar.antena2 = new Antena(2,0,0,0,0);
-            //leitorParaSalvar.antena2.setFrequencia(Integer.parseInt(txtfFrequenciaAnt2.getText()));
-            leitorParaSalvar.antena2.setAjuste(Integer.parseInt(txtfCinAnt2.getText()),Integer.parseInt(txtfClenAnt2.getText()),Integer.parseInt(txtfCoutAnt2.getText()));
-            txtfRssiMinAnt2.commitEdit();
-            leitorParaSalvar.antena2.setSensibilidade((Integer)txtfRssiMinAnt2.getValue());
-            leitorParaSalvar.antena3 = new Antena(2,0,0,0,0);
-            //leitorParaSalvar.antena3.setFrequencia(Integer.parseInt(txtfFrequenciaAnt3.getText()));
-            leitorParaSalvar.antena3.setAjuste(Integer.parseInt(txtfCinAnt3.getText()),Integer.parseInt(txtfClenAnt3.getText()),Integer.parseInt(txtfCoutAnt3.getText()));
-            txtfRssiMinAnt3.commitEdit();
-            leitorParaSalvar.antena3.setSensibilidade((Integer)txtfRssiMinAnt3.getValue());
-            leitorParaSalvar.antena4 = new Antena(4,0,0,0,0);
-            //leitorParaSalvar.antena4.setFrequencia(Integer.parseInt(txtfFrequenciaAnt4.getText()));
-            leitorParaSalvar.antena4.setAjuste(Integer.parseInt(txtfCinAnt4.getText()),Integer.parseInt(txtfClenAnt4.getText()),Integer.parseInt(txtfCoutAnt4.getText()));
-            txtfRssiMinAnt4.commitEdit();
-            leitorParaSalvar.antena4.setSensibilidade((Integer)txtfRssiMinAnt4.getValue());
-            leitorParaSalvar.frequenciaDeOperacao = Integer.parseInt(txtfFrequenciaDeOperacao.getText());
-            
-            leitorParaSalvar.antena1.setReflexao(Integer.parseInt(txtfReflexaoAnt1.getText()));
-            leitorParaSalvar.antena2.setReflexao(Integer.parseInt(txtfReflexaoAnt2.getText()));
-            leitorParaSalvar.antena3.setReflexao(Integer.parseInt(txtfReflexaoAnt3.getText()));
-            leitorParaSalvar.antena4.setReflexao(Integer.parseInt(txtfReflexaoAnt4.getText()));
-            
-            equipamentosAbertos.clear();
-            equipamentosAbertos.add(leitorParaSalvar);
-            
             for(int i=0;i<equipamentosAbertos.size();i++){               
                 switch(leitorParaSalvar.tipoDoProduto){
                     case EMPILHADEIRA:
+                            leitorParaSalvar.idDoLeitor = txtfIdEmpilhadeira.getText();
+                            leitorParaSalvar.ssidWifi = txtfSsidWifi.getText();
+                            leitorParaSalvar.senhaWifi = String.copyValueOf(txtfSenhaWifi.getPassword());
+                            leitorParaSalvar.ipRemotoPrincipal = txtfIpPrincipal.getText();
+                            leitorParaSalvar.portaRemotaPrincipal = txtfPortaPrincipal.getText();
+                            leitorParaSalvar.ipRemotoSecundario = txtfIpBackup.getText();
+                            leitorParaSalvar.portaRemotaSecundaria = txtfPortaBackup.getText();
+                            leitorParaSalvar.antena1 = new Antena(1,0,0,0,0);
+                            //leitorParaSalvar.antena1.setFrequencia(Integer.parseInt(txtfFrequenciaDeOperacao.getText()));
+                            leitorParaSalvar.antena1.setAjuste(Integer.parseInt(txtfCinAnt1.getText()),Integer.parseInt(txtfClenAnt1.getText()),Integer.parseInt(txtfCoutAnt1.getText()));
+                            txtfRssiMinAnt1.commitEdit();
+                            leitorParaSalvar.antena1.setSensibilidade((Integer)txtfRssiMinAnt1.getValue());
+                            leitorParaSalvar.antena2 = new Antena(2,0,0,0,0);
+                            //leitorParaSalvar.antena2.setFrequencia(Integer.parseInt(txtfFrequenciaAnt2.getText()));
+                            leitorParaSalvar.antena2.setAjuste(Integer.parseInt(txtfCinAnt2.getText()),Integer.parseInt(txtfClenAnt2.getText()),Integer.parseInt(txtfCoutAnt2.getText()));
+                            txtfRssiMinAnt2.commitEdit();
+                            leitorParaSalvar.antena2.setSensibilidade((Integer)txtfRssiMinAnt2.getValue());
+                            leitorParaSalvar.antena3 = new Antena(2,0,0,0,0);
+                            //leitorParaSalvar.antena3.setFrequencia(Integer.parseInt(txtfFrequenciaAnt3.getText()));
+                            leitorParaSalvar.antena3.setAjuste(Integer.parseInt(txtfCinAnt3.getText()),Integer.parseInt(txtfClenAnt3.getText()),Integer.parseInt(txtfCoutAnt3.getText()));
+                            txtfRssiMinAnt3.commitEdit();
+                            leitorParaSalvar.antena3.setSensibilidade((Integer)txtfRssiMinAnt3.getValue());
+                            leitorParaSalvar.antena4 = new Antena(4,0,0,0,0);
+                            //leitorParaSalvar.antena4.setFrequencia(Integer.parseInt(txtfFrequenciaAnt4.getText()));
+                            leitorParaSalvar.antena4.setAjuste(Integer.parseInt(txtfCinAnt4.getText()),Integer.parseInt(txtfClenAnt4.getText()),Integer.parseInt(txtfCoutAnt4.getText()));
+                            txtfRssiMinAnt4.commitEdit();
+                            leitorParaSalvar.antena4.setSensibilidade((Integer)txtfRssiMinAnt4.getValue());
+                            leitorParaSalvar.frequenciaDeOperacao = Integer.parseInt(txtfFrequenciaDeOperacao.getText());
+
+                            leitorParaSalvar.antena1.setReflexao(Integer.parseInt(txtfReflexaoAnt1.getText()));
+                            leitorParaSalvar.antena2.setReflexao(Integer.parseInt(txtfReflexaoAnt2.getText()));
+                            leitorParaSalvar.antena3.setReflexao(Integer.parseInt(txtfReflexaoAnt3.getText()));
+                            leitorParaSalvar.antena4.setReflexao(Integer.parseInt(txtfReflexaoAnt4.getText()));
+                            
+                            leitorParaSalvar.ip = txtbIp_Empilhadeira.getText();
+                            leitorParaSalvar.gateway = txtbGateway_Empilhadeira.getText();
+                            leitorParaSalvar.mask = txtbMask_Empilhadeira.getText();  
+                            leitorParaSalvar.mac = txtbMac_Empilhadeira.getText();
+
+                            if(cbDHCP_Empilhadeira.isSelected())
+                            {
+                                leitorParaSalvar.dhcpHabilitado = 1;
+                            }
+                            else{
+                                leitorParaSalvar.dhcpHabilitado = 0;
+                            }
+                            
                             salvarEmpilhadeira(leitorParaSalvar);
                         break;
                     case PORTAL:
-                        break;
+                            leitorParaSalvar.idDoLeitor = txtfIdPortal.getText();
+                            //leitorParaSalvar.ssidWifi = txtfSsidWifi.getText();
+                            //leitorParaSalvar.senhaWifi = String.copyValueOf(txtfSenhaWifi.getPassword());
+                            leitorParaSalvar.ipRemotoPrincipal = txtfIpPrincipalPortal.getText();
+                            leitorParaSalvar.portaRemotaPrincipal = txtfPortaPrincipalPortal.getText();
+                            leitorParaSalvar.ipRemotoSecundario = txtfIpBackupPortal.getText();
+                            leitorParaSalvar.portaRemotaSecundaria = txtfPortaBackupPortal.getText();
+                            leitorParaSalvar.antena1 = new Antena(1,0,0,0,0);
+                            //leitorParaSalvar.antena1.setFrequencia(Integer.parseInt(txtfFrequenciaDeOperacao.getText()));
+                            leitorParaSalvar.antena1.setAjuste(Integer.parseInt(txtfCinAnt1Portal.getText()),Integer.parseInt(txtfClenAnt1Portal.getText()),Integer.parseInt(txtfCoutAnt1Portal.getText()));
+                            //txtfRssiMinAnt1.commitEdit();
+                            //leitorParaSalvar.antena1.setSensibilidade((Integer)txtfRssiMinAnt1.getValue());
+                            leitorParaSalvar.antena2 = new Antena(2,0,0,0,0);
+                            //leitorParaSalvar.antena2.setFrequencia(Integer.parseInt(txtfFrequenciaAnt2.getText()));
+                            leitorParaSalvar.antena2.setAjuste(Integer.parseInt(txtfCinAnt2Portal.getText()),Integer.parseInt(txtfClenAnt2Portal.getText()),Integer.parseInt(txtfCoutAnt2Portal.getText()));
+                            //txtfRssiMinAnt2.commitEdit();
+                            //leitorParaSalvar.antena2.setSensibilidade((Integer)txtfRssiMinAnt2.getValue());
+                            leitorParaSalvar.antena3 = new Antena(3,0,0,0,0);
+                            //leitorParaSalvar.antena3.setFrequencia(Integer.parseInt(txtfFrequenciaAnt3.getText()));
+                            leitorParaSalvar.antena3.setAjuste(Integer.parseInt(txtfCinAnt3Portal.getText()),Integer.parseInt(txtfClenAnt3Portal.getText()),Integer.parseInt(txtfCoutAnt3Portal.getText()));
+                            //txtfRssiMinAnt3.commitEdit();
+                            //leitorParaSalvar.antena3.setSensibilidade((Integer)txtfRssiMinAnt3.getValue());
+                            leitorParaSalvar.antena4 = new Antena(4,0,0,0,0);
+                            //leitorParaSalvar.antena4.setFrequencia(Integer.parseInt(txtfFrequenciaAnt4.getText()));
+                            leitorParaSalvar.antena4.setAjuste(Integer.parseInt(txtfCinAnt4Portal.getText()),Integer.parseInt(txtfClenAnt4Portal.getText()),Integer.parseInt(txtfCoutAnt4Portal.getText()));
+                            //txtfRssiMinAnt4.commitEdit();
+                            //leitorParaSalvar.antena4.setSensibilidade((Integer)txtfRssiMinAnt4.getValue());
+                            leitorParaSalvar.frequenciaDeOperacao = Integer.parseInt(txtfFrequenciaDeOperacaoPortal.getText());
+
+                            leitorParaSalvar.antena1.setReflexao(Integer.parseInt(txtfReflexaoAnt1Portal.getText()));
+                            leitorParaSalvar.antena2.setReflexao(Integer.parseInt(txtfReflexaoAnt2Portal.getText()));
+                            leitorParaSalvar.antena3.setReflexao(Integer.parseInt(txtfReflexaoAnt3Portal.getText()));
+                            leitorParaSalvar.antena4.setReflexao(Integer.parseInt(txtfReflexaoAnt4Portal.getText()));
+                            
+                            leitorParaSalvar.modoDeOperacao = Integer.parseInt(txtfModoOperacaoPortal.getText());
+                            leitorParaSalvar.atrasoParaDegradarLeitura = Integer.parseInt(txtfAtrasoParaDegradarLeituraPortal.getText());
+                            leitorParaSalvar.tempoParaInatividadeDaTagMonitorada = Integer.parseInt(txtfTempoInatividadeTagPortal.getText());
+                            leitorParaSalvar.numeroDeAntenasLidas = Integer.parseInt(txtfNumAntenasLidasPortal.getText());
+                            leitorParaSalvar.sensibilidadeDaAntena = Integer.parseInt(txtfSensibilidadeAntenasPortal.getText());
+                            leitorParaSalvar.repeticaoNaLeitura = Integer.parseInt(txtfRepeticaoNaLeituraPortal.getText());
+                            
+                            leitorParaSalvar.ip = txtbIp_Portal.getText();
+                            leitorParaSalvar.gateway = txtbGateway_Portal.getText();
+                            leitorParaSalvar.mask = txtbMask_Portal.getText();  
+                            leitorParaSalvar.mac = txtbMac_Portal.getText();
+
+                            if(cbDHCP_Portal.isSelected())
+                            {
+                                leitorParaSalvar.dhcpHabilitado = 1;
+                            }
+                            else{
+                                leitorParaSalvar.dhcpHabilitado = 0;
+                            }
+                            
+                            salvarPortal(leitorParaSalvar);
+                        break;                        
                 }
+                equipamentosAbertos.clear();
+                equipamentosAbertos.add(leitorParaSalvar);
             }       
         }
         catch(Exception ex){
@@ -1375,8 +2869,11 @@ public class Main extends javax.swing.JFrame {
         }
     }
     
+    public String receivedData;
+    
     public boolean iniciarPortaSerial(String port){
         boolean success = false;
+        
         if(conexaoCOM != null){
            if (conexaoCOM.isOpened()){
                 fecharConexaoSerial();
@@ -1393,28 +2890,33 @@ public class Main extends javax.swing.JFrame {
                     SerialPort.PARITY_NONE);
             serialPort.setEventsMask(MASK_RXCHAR);
             serialPort.addEventListener((SerialPortEvent serialPortEvent) -> {
-                /*
-                String bufferRecebimentoCOM = new String();
-                if(serialPortEvent.isRXCHAR()){
+                String receivedDataBuffer;
+                if (serialPortEvent.isRXCHAR() && serialPortEvent.getEventValue() > 0) {
                     try {
-                        bufferRecebimentoCOM = serialPort.readString(serialPortEvent
-                                .getEventValue());
+                        receivedDataBuffer = serialPort.readString(serialPortEvent.getEventValue());
                         
-                        if(strstr(bufferRecebimentoCOM,"FIM\r\n")>0){
-                            System.out.printf(bufferRecebimentoCOM);
+                        if(receivedData == null){
+                            receivedData = receivedDataBuffer;
                         }
-                        //Update label in ui thread
-                        Platform.runLater(() -> {
-                            //labelValue.setText(st);
-                            
-                        });
-                        
+                        else{
+                            receivedData += receivedDataBuffer;
+                        }
+                        if(tbpanemodelo.isVisible()){          
+                            if(strstr(receivedDataBuffer,"SENHA WIFI:") < 0 && strstr(receivedDataBuffer,"INICIO") < 0 && strstr(receivedDataBuffer,"FIM") < 0){
+                                if(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).tipoDoProduto == LeitorMarsOne.TipoProduto.EMPILHADEIRA){
+                                    txtaSaidaPromptEmpilhadeira.append(receivedDataBuffer.replace("\n","") + "\n");    
+                                }
+                                else{
+                                    if(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).tipoDoProduto == LeitorMarsOne.TipoProduto.PORTAL){
+                                        txtaSaidaPromptPortal.append(receivedDataBuffer + "\n");
+                                    }
+                                }
+                            }
+                        }                        
                     } catch (SerialPortException ex) {
-                        
+                        JOptionPane.showMessageDialog(null, "Ocorreu algum problema durante a recepção dos dados", "Aviso!",JOptionPane.INFORMATION_MESSAGE);
                     }
-                    int i=0;
                 }
-                */
             });            
             conexaoCOM = serialPort;                     
             success = true;
@@ -1438,14 +2940,20 @@ public class Main extends javax.swing.JFrame {
         try{                         
             conexaoCOM.writeString(comando);
             
-            Thread.sleep(3000);
+            Thread.sleep(8000);
             
             LeitorMarsOne novoLeitor=null;
             novoLeitor = lerParametrosDoLeitor(cbPorts.getSelectedItem().toString());
 
-            if(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).tipoDoProduto == LeitorMarsOne.TipoProduto.EMPILHADEIRA){
-                adicionarAbaDeEmpilhadeira(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).nomeDoArquivo,novoLeitor); 
-                tbpanemodelo.setVisible(true); 
+            switch(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).tipoDoProduto){
+                case EMPILHADEIRA:
+                    adicionarAbaDeEmpilhadeira(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).nomeDoArquivo,novoLeitor); 
+                    tbpanemodelo.setVisible(true); 
+                    break;
+                case PORTAL:
+                    adicionarAbaDePortal(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).nomeDoArquivo,novoLeitor); 
+                    tbpanemodelo.setVisible(true); 
+                    break;
             }
             
             salvar();
@@ -1457,22 +2965,25 @@ public class Main extends javax.swing.JFrame {
         }
     }
         
-    public void gravarParametrosNoLeitor(LeitorMarsOne leitor,String port){
+    public void gravarParametrosNoLeitor(LeitorMarsOne leitor,String port) throws Exception{
         String bufferRecebimentoCOM;
         String parametrosLeitor[];
         
         iniciarPortaSerial(port);
         String ajusteCapacitores[];
         
+        String mensagem[] = new String[100];
+        
         String ip[];
+        
+        int timeout1 = 0;
         
         int delay = 300;
         
         AjusteCapacitores ajuste = new AjusteCapacitores();
           
         try{
-            String mensagem;
-            
+                        
             //CRIO AS 4 ULTIMAS ANTENAS POIS NÃO USAMOS
             leitor.antena5 = new Antena(5,0,0,0,0);
             leitor.antena6 = new Antena(6,0,0,0,0);
@@ -1487,92 +2998,92 @@ public class Main extends javax.swing.JFrame {
             leitor.tempoParaInatividadeDaTagMonitorada = (leitor.tempoParaInatividadeDaTagMonitorada >= 0 && leitor.tempoParaInatividadeDaTagMonitorada <= 100) ? leitor.tempoParaInatividadeDaTagMonitorada : 0;
             leitor.numeroDeAntenasLidas = (leitor.numeroDeAntenasLidas >= 1 && leitor.numeroDeAntenasLidas <= 8) ? leitor.numeroDeAntenasLidas : 4;
             
-            mensagem = String.format("#CMD01;%03d\r\n",leitor.modoDeOperacao);           
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[1] = String.format("#CMD01;%03d\r\n",leitor.modoDeOperacao);           
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            mensagem = String.format("#CMD02;%03d\r\n",leitor.atrasoParaDegradarLeitura);           
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[2] = String.format("#CMD02;%03d\r\n",leitor.atrasoParaDegradarLeitura);           
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            mensagem = String.format("#CMD03;%03d\r\n",leitor.repeticaoNaLeitura);           
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[3] = String.format("#CMD03;%03d\r\n",leitor.repeticaoNaLeitura);           
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            mensagem = String.format("#CMD04;%03d\r\n",leitor.sensibilidadeDaAntena);           
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[4] = String.format("#CMD04;%03d\r\n",leitor.sensibilidadeDaAntena);           
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            mensagem = String.format("#CMD05;%03d\r\n",leitor.tempoParaInatividadeDaTagMonitorada);           
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[5] = String.format("#CMD05;%03d\r\n",leitor.tempoParaInatividadeDaTagMonitorada);           
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            mensagem = String.format("#CMD06;%03d\r\n",leitor.numeroDeAntenasLidas);             
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[6] = String.format("#CMD06;%03d\r\n",leitor.numeroDeAntenasLidas);             
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            mensagem = String.format("#CMD07;%03d;%03d;%03d\r\n",leitor.antena1.getCin(),leitor.antena1.getClen(),leitor.antena1.getCout());            
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[7] = String.format("#CMD07;%03d;%03d;%03d\r\n",leitor.antena1.getCin(),leitor.antena1.getClen(),leitor.antena1.getCout());            
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            mensagem = String.format("#CMD08;%03d;%03d;%03d\r\n",leitor.antena2.getCin(),leitor.antena2.getClen(),leitor.antena2.getCout());            
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[8] = String.format("#CMD08;%03d;%03d;%03d\r\n",leitor.antena2.getCin(),leitor.antena2.getClen(),leitor.antena2.getCout());            
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            mensagem = String.format("#CMD09;%03d;%03d;%03d\r\n",leitor.antena3.getCin(),leitor.antena3.getClen(),leitor.antena3.getCout());            
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[9] = String.format("#CMD09;%03d;%03d;%03d\r\n",leitor.antena3.getCin(),leitor.antena3.getClen(),leitor.antena3.getCout());            
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            mensagem = String.format("#CMD10;%03d;%03d;%03d\r\n",leitor.antena4.getCin(),leitor.antena4.getClen(),leitor.antena4.getCout());        
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[10] = String.format("#CMD10;%03d;%03d;%03d\r\n",leitor.antena4.getCin(),leitor.antena4.getClen(),leitor.antena4.getCout());        
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            mensagem = String.format("#CMD11;%03d;%03d;%03d\r\n",leitor.antena5.getCin(),leitor.antena5.getClen(),leitor.antena5.getCout()); 
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[11] = String.format("#CMD11;%03d;%03d;%03d\r\n",leitor.antena5.getCin(),leitor.antena5.getClen(),leitor.antena5.getCout()); 
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            mensagem = String.format("#CMD12;%03d;%03d;%03d\r\n",leitor.antena6.getCin(),leitor.antena6.getClen(),leitor.antena6.getCout());       
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[12] = String.format("#CMD12;%03d;%03d;%03d\r\n",leitor.antena6.getCin(),leitor.antena6.getClen(),leitor.antena6.getCout());       
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            mensagem = String.format("#CMD13;%03d;%03d;%03d\r\n",leitor.antena7.getCin(),leitor.antena7.getClen(),leitor.antena7.getCout());       
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[13] = String.format("#CMD13;%03d;%03d;%03d\r\n",leitor.antena7.getCin(),leitor.antena7.getClen(),leitor.antena7.getCout());       
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            mensagem = String.format("#CMD14;%03d;%03d;%03d\r\n",leitor.antena8.getCin(),leitor.antena8.getClen(),leitor.antena8.getCout());       
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[14] = String.format("#CMD14;%03d;%03d;%03d\r\n",leitor.antena8.getCin(),leitor.antena8.getClen(),leitor.antena8.getCout());       
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            mensagem = String.format("#CMD15;%03d\r\n",leitor.frequenciaDeOperacao-900);       
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[15] = String.format("#CMD15;%03d\r\n",leitor.frequenciaDeOperacao-900);       
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            mensagem = String.format("#CMD16;%s\r\n",leitor.idDoLeitor);       
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
-            /*
+            mensagem[16] = String.format("#CMD16;%s\r\n",leitor.idDoLeitor);       
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
+            /*            
             mensagem = String.format("#CMD17;%03d\r\n",leitor.dataHora);       
             conexaoCOM.writeString(mensagem);
             Thread.sleep(delay);            
             bufferRecebimentoCOM = conexaoCOM.readString();
             */
-            
+            mensagem[17] = null;
             
             
             ip = leitor.ipRemotoPrincipal.split("\\.");
@@ -1584,10 +3095,10 @@ public class Main extends javax.swing.JFrame {
                 }
             }
             
-            mensagem = String.format("#CMD18;%s.%s.%s.%s\r\n",ip[0],ip[1],ip[2],ip[3]);      
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[18] = String.format("#CMD18;%s.%s.%s.%s\r\n",ip[0],ip[1],ip[2],ip[3]);      
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
             ip = leitor.ipRemotoSecundario.split("\\.");
             for(int i=0;i<ip.length;i++){
@@ -1597,10 +3108,10 @@ public class Main extends javax.swing.JFrame {
                 }
             }            
             
-            mensagem = String.format("#CMD19;%s.%s.%s.%s\r\n",ip[0],ip[1],ip[2],ip[3]);       
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();                       
+            mensagem[19] = String.format("#CMD19;%s.%s.%s.%s\r\n",ip[0],ip[1],ip[2],ip[3]);       
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();                       
                         
             String porta = leitor.portaRemotaPrincipal;
             
@@ -1608,10 +3119,10 @@ public class Main extends javax.swing.JFrame {
                 porta = "0".concat(porta);                   
             }
             
-            mensagem = String.format("#CMD20;%s\r\n",porta);       
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[20] = String.format("#CMD20;%s\r\n",porta);       
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
             porta = leitor.portaRemotaSecundaria;
             
@@ -1619,111 +3130,245 @@ public class Main extends javax.swing.JFrame {
                 porta = "0".concat(porta);                   
             }
             
-            mensagem = String.format("#CMD21;%s\r\n",porta);       
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[21] = String.format("#CMD21;%s\r\n",porta);       
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
+            mensagem[22] = null;
             
-            char ssidWifi[] =  leitor.ssidWifi.toCharArray();
-              
-            byte comandoWifi[] = new byte[25];          
-           
-            comandoWifi[0] = '#';
-            comandoWifi[1] = 'C';
-            comandoWifi[2] = 'M';
-            comandoWifi[3] = 'D';
-            comandoWifi[4] = '2';
-            comandoWifi[5] = '2';
-            comandoWifi[6] = ';';
+            mensagem[23] = null;
             
-            comandoWifi[23] = '\r';
-            comandoWifi[24] = '\n';
-            
-            for(int i=0;i<ssidWifi.length;i++){                
-                comandoWifi[i+7] = (byte)ssidWifi[i];                
+            if(leitor.tipoDoProduto == LeitorMarsOne.TipoProduto.EMPILHADEIRA){
+                char ssidWifi[] =  leitor.ssidWifi.toCharArray();
+
+                byte comandoWifi[] = new byte[25];          
+
+                comandoWifi[0] = '#';
+                comandoWifi[1] = 'C';
+                comandoWifi[2] = 'M';
+                comandoWifi[3] = 'D';
+                comandoWifi[4] = '2';
+                comandoWifi[5] = '2';
+                comandoWifi[6] = ';';
+
+                comandoWifi[23] = '\r';
+                comandoWifi[24] = '\n';
+
+                for(int i=0;i<ssidWifi.length;i++){                
+                    comandoWifi[i+7] = (byte)ssidWifi[i];                
+                }
+                
+                receivedData = "";
+                
+                conexaoCOM.writeBytes(comandoWifi);
+                
+                Thread.sleep(100);
+                
+                timeout1 = 0;
+
+                while(strstr(receivedData,"OK") < 0 && timeout1 < 1000){
+                    timeout1++;
+                    Thread.sleep(1);
+                }
+
+                char senhaWifi[] =  leitor.senhaWifi.toCharArray();
+
+                comandoWifi = new byte[25];
+
+
+                comandoWifi[0] = '#';
+                comandoWifi[1] = 'C';
+                comandoWifi[2] = 'M';
+                comandoWifi[3] = 'D';
+                comandoWifi[4] = '2';
+                comandoWifi[5] = '3';
+                comandoWifi[6] = ';';
+
+                comandoWifi[23] = '\r';
+                comandoWifi[24] = '\n';
+
+                for(int i=0;i<senhaWifi.length;i++){
+                    comandoWifi[i+7] = (byte)senhaWifi[i];
+                }
+                String view = comandoWifi.toString();
+
+                timeout1 = 0;
+                
+                receivedData = "";
+                
+                conexaoCOM.writeBytes(comandoWifi);
+                Thread.sleep(100);
+                while(strstr(receivedData,"OK") < 0 && timeout1 < 1000){
+                    timeout1++;
+                    Thread.sleep(1);
+                }
             }
             
-            //mensagem = String.format("#CMD22;%s\r\n",leitor.ssidWifi);       
+            mensagem[24] = null;
+            
+            mensagem[25] = null;
+            
+            mensagem[26] = null;
+            
+            mensagem[27] = String.format("#CMD27;%03d\r\n",leitor.antena1.getSensibilidade());       
             //conexaoCOM.writeString(mensagem);
-            conexaoCOM.writeBytes(comandoWifi);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            char senhaWifi[] =  leitor.senhaWifi.toCharArray();
+            mensagem[28] = String.format("#CMD28;%03d\r\n",leitor.antena2.getSensibilidade());       
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            comandoWifi = new byte[25];
+            mensagem[29] = String.format("#CMD29;%03d\r\n",leitor.antena3.getSensibilidade());       
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            //comandoWifi[] = new byte[25];
-           
-            comandoWifi[0] = '#';
-            comandoWifi[1] = 'C';
-            comandoWifi[2] = 'M';
-            comandoWifi[3] = 'D';
-            comandoWifi[4] = '2';
-            comandoWifi[5] = '3';
-            comandoWifi[6] = ';';
+            mensagem[30] = String.format("#CMD30;%03d\r\n",leitor.antena4.getSensibilidade());       
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            comandoWifi[23] = '\r';
-            comandoWifi[24] = '\n';
+            mensagem[31] = String.format("#CMD31;%03d\r\n",leitor.antena5.getSensibilidade());       
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            for(int i=0;i<senhaWifi.length;i++){
-                comandoWifi[i+7] = (byte)senhaWifi[i];
+            mensagem[32] = String.format("#CMD32;%03d\r\n",leitor.antena6.getSensibilidade());       
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
+            
+            mensagem[33] = String.format("#CMD33;%03d\r\n",leitor.antena7.getSensibilidade());       
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
+            
+            mensagem[34] = String.format("#CMD34;%03d\r\n",leitor.antena8.getSensibilidade());       
+            //conexaoCOM.writeString(mensagem);
+            //Thread.sleep(delay);            
+            //bufferRecebimentoCOM = conexaoCOM.readString();
+            
+            if(leitor.tipoDoProduto == LeitorMarsOne.TipoProduto.EMPILHADEIRA){
+                mensagem[35] = String.format("#CMD35;\r\n"); // ENTRA EM MODO DEBUG DO WIFI
+
+                mensagem[36] = String.format("#CMD37;+++\0");
+                mensagem[37] = String.format("#CMD37;AT+RESTORE\r\n\0");
+                mensagem[38] = null; //String.format("#CMD37;AT+RST\r\n\0");
+                mensagem[39] = String.format("#CMD37;ATE0\r\n\0");
+                mensagem[40] = null;//String.format("#CMD37;AT+RFPOWER=82\r\n\0");
+                mensagem[41] = String.format("#CMD37;AT+CWMODE_DEF=1\r\n\0");            
+                mensagem[42] = String.format("#CMD37;AT+CWAUTOCONN=0\r\n\0");
+                mensagem[43] = String.format("#CMD37;AT+CIPSTAMAC_DEF=\"%s\"\r\n\0",leitor.mac);
+               // mensagem[43] = String.format("#CMD37;AT+CIPSTAMAC_DEF=\"32:33:34:35:36:37\"\r\n\0",leitor.mac);
+
+                if(leitor.dhcpHabilitado == 1){
+                    mensagem[44] = String.format("#CMD37;AT+CWDHCP_DEF=1,1\r\n\0");
+                    mensagem[45] = null;
+                }
+                else{
+                    mensagem[44] = String.format("#CMD37;AT+CWDHCP_DEF=1,0\r\n\0");
+                    mensagem[45] = String.format("#CMD37;AT+CIPSTA_DEF=\"%s\",\"%s\",\"%s\"\r\n\0",leitor.ip,leitor.gateway,leitor.mask);
+
+                }
+
+                mensagem[46] = String.format("#CMD37;AT+CIPMODE=1\r\n\0"); 
+                mensagem[47] = null;//String.format("#CMD37;AT+CIPMUX=0\r\n\0");
+
+                mensagem[48] = String.format("#CMD37;AT+RST\r\n\0");
+
+                mensagem[49] = String.format("#CMD36;\r\n"); // SAI DO MODO DEBUG DO WIFI
             }
-            String view = comandoWifi.toString();
-            conexaoCOM.writeBytes(comandoWifi);
-            //conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
-            
-            mensagem = String.format("#CMD27;%03d\r\n",leitor.antena1.getSensibilidade());       
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
-            
-            mensagem = String.format("#CMD28;%03d\r\n",leitor.antena2.getSensibilidade());       
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
-            
-            mensagem = String.format("#CMD29;%03d\r\n",leitor.antena3.getSensibilidade());       
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
-            
-            mensagem = String.format("#CMD30;%03d\r\n",leitor.antena4.getSensibilidade());       
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
-            
-            mensagem = String.format("#CMD31;%03d\r\n",leitor.antena5.getSensibilidade());       
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
-            
-            mensagem = String.format("#CMD32;%03d\r\n",leitor.antena6.getSensibilidade());       
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
-            
-            mensagem = String.format("#CMD33;%03d\r\n",leitor.antena7.getSensibilidade());       
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
-            
-            mensagem = String.format("#CMD34;%03d\r\n",leitor.antena8.getSensibilidade());       
-            conexaoCOM.writeString(mensagem);
-            Thread.sleep(delay);            
-            bufferRecebimentoCOM = conexaoCOM.readString();
-            
+            else{
+                if(leitor.tipoDoProduto == LeitorMarsOne.TipoProduto.PORTAL){
+                    mensagem[35] = String.format("#CMD42;\r\n"); // ENTRA EM MODO DEBUG ETHERNET
+
+                    mensagem[36] = String.format("#CMD44;+++\0");
+                    mensagem[37] = String.format("#CMD44;a\0");
+                    mensagem[38] = null; //String.format("#CMD44;AT+RST\r\n\0");
+                    mensagem[39] = null; //String.format("#CMD44;ATE0\r\n\0");
+                    mensagem[40] = null; //String.format("#CMD44;AT+RFPOWER=82\r\n\0");
+                    mensagem[41] = null; //String.format("#CMD44;AT+CWMODE_DEF=1\r\n\0");            
+                    mensagem[42] = null; //String.format("#CMD44;AT+CWAUTOCONN=0\r\n\0");
+                    mensagem[43] = String.format("#CMD44;AT+USERMAC=%s\r\0",leitor.mac.replace(":",""));
+                   // mensagem[43] = String.format("#CMD37;AT+CIPSTAMAC_DEF=\"32:33:34:35:36:37\"\r\n\0",leitor.mac);
+
+                    if(leitor.dhcpHabilitado == 1){
+                        mensagem[44] = String.format("#CMD44;AT+WANN=dhcp\r\0");
+                        mensagem[45] = null;
+                    }
+                    else{
+                        mensagem[44] = null; //String.format("#CMD44;AT+CWDHCP_DEF=1,0\r\0");
+                        mensagem[45] = String.format("#CMD44;AT+WANN=static,\"%s\",\"%s\",\"%s\"\r\0",leitor.ip,leitor.mask,leitor.gateway);
+
+                    }
+
+                    mensagem[46] = String.format("#CMD44;AT+CFGTF\r\0");
+                    mensagem[47] = null; //String.format("#CMD44;AT+CIPMODE=1\r\n\0"); 
+
+                    mensagem[48] = String.format("#CMD44;AT+Z\r\0");
+
+                    mensagem[49] = String.format("#CMD43;\r\n"); // SAI DO MODO DEBUG DO WIFI
+                }
+            }
+            int timeout = 0;
+            int contadorAux = 0;
+
+            for(int i=1;i<mensagem.length;i++){
+                timeout = 0;                
+                bufferRecebimentoCOM = "";
+                if(mensagem[i] != null){
+                    do{     
+                        receivedData = "";
+                        
+                        txtaSaidaPromptEmpilhadeira.append(mensagem[i]);
+                        txtaSaidaPromptPortal.append(mensagem[i]);
+                        conexaoCOM.writeString(mensagem[i]);
+                       
+                        Thread.sleep(100); 
+                       
+                        timeout++;    
+                        if(strstr(mensagem[i],"#CMD37;AT+RST\r\n\0") >= 0 || strstr(mensagem[i],"#CMD37;AT+RESTORE\r\n\0") >= 0){
+                            //bufferRecebimentoCOM = "OK";
+                            Thread.sleep(500);
+                        }         
+                        if(strstr(mensagem[i],"#CMD37;ATE0\r\n\0") >= 0 || strstr(mensagem[i],"#CMD37;+++\0") >= 0){
+                            //bufferRecebimentoCOM = "OK";
+                            receivedData = "OK";
+                        }                  
+                        if((strstr(mensagem[i],"#CMD35;\r\n") >= 0 || strstr(mensagem[i],"#CMD36;\r\n") >= 0 || strstr(mensagem[i],"#CMD42;\r\n") >= 0 || strstr(mensagem[i],"#CMD43;\r\n") >= 0) && contadorAux < 4){
+                            i = i-1;
+                            contadorAux++;
+                        }
+                        else{
+                            if(contadorAux >= 4){                               
+                                contadorAux = 0;
+                            }
+                        }
+                        
+                        if(strstr(mensagem[i],"#CMD44;+++\0") == 0 || strstr(mensagem[i],"#CMD44;a\0") == 0 && timeout > 5){
+                            //bufferRecebimentoCOM = "OK";
+                            receivedData = "OK";
+                        }    
+                    }while(!(strstr(receivedData,"OK")>=0 || strstr(receivedData,"+ok")>=0 || strstr(receivedData,"+OK=saved")>=0 || strstr(receivedData,"a")>=0) && timeout < 20 );                       
+                    
+                    
+                    if(timeout>=10){
+                        throw new Exception("Não foi possível processar todos os comandos");
+                    }   
+                }
+            }   
+            Thread.sleep(500);
         }
         catch(Exception ex){
-            System.out.printf(ex.getMessage());
+            throw ex;           
         }
     }
     
-    public LeitorMarsOne lerParametrosDoLeitor(String port){
+    public LeitorMarsOne lerParametrosDoLeitor(String port) throws Exception{
         String bufferRecebimentoCOM;
-        String parametrosLeitor[];
+        String parametrosLeitor[] = new String[100];
         
         iniciarPortaSerial(port);
         String ajusteCapacitores[];
@@ -1734,101 +3379,442 @@ public class Main extends javax.swing.JFrame {
         //System.out.println("lerParametrosDoLeitor");
         
         try{
+            receivedData = "";
             conexaoCOM.writeString("#CMD25?\r\n"); 
             Thread.sleep(1000);
-            bufferRecebimentoCOM = conexaoCOM.readString();
-            
-            bufferRecebimentoCOM = bufferRecebimentoCOM.replace(" ",""); //Remove espaços            
-            parametrosLeitor = bufferRecebimentoCOM.split("\r\n");                                   
+            bufferRecebimentoCOM = receivedData;  
+            if(!bufferRecebimentoCOM.isEmpty()){
+                bufferRecebimentoCOM = bufferRecebimentoCOM.replace(" ",""); //Remove espaços            
+                parametrosLeitor = bufferRecebimentoCOM.split("\r\n");                                   
 
-            for(int i=0;i<parametrosLeitor.length;i++){
-                parametrosLeitor[i] = parametrosLeitor[i].substring(parametrosLeitor[i].indexOf(':')+1); //Elimina tudo antes dos : e retorna apenas o valor do parametro
-            }              
+                for(int i=0;i<parametrosLeitor.length;i++){
+                    parametrosLeitor[i] = parametrosLeitor[i].substring(parametrosLeitor[i].indexOf(':')+1); //Elimina tudo antes dos : e retorna apenas o valor do parametro
+                }              
+
+                leitor.modoDeOperacao = Integer.parseInt(parametrosLeitor[1]);
+                leitor.atrasoParaDegradarLeitura = Integer.parseInt(parametrosLeitor[2]);
+                leitor.repeticaoNaLeitura = Integer.parseInt(parametrosLeitor[3]);
+                leitor.sensibilidadeDaAntena = Integer.parseInt(parametrosLeitor[4]);
+                leitor.tempoParaInatividadeDaTagMonitorada = Integer.parseInt(parametrosLeitor[5]);
+                leitor.numeroDeAntenasLidas = Integer.parseInt(parametrosLeitor[6]);
+                ajusteCapacitores = parametrosLeitor[7].split(",");
+                ajuste.setCin(Integer.parseInt(ajusteCapacitores[0]));
+                ajuste.setClen(Integer.parseInt(ajusteCapacitores[1]));
+                ajuste.setCout(Integer.parseInt(ajusteCapacitores[2]));            
+                leitor.antena1 = new Antena(1,ajuste,125);
+                leitor.antena1.setReflexao(Integer.parseInt(ajusteCapacitores[3]));
+                ajusteCapacitores = parametrosLeitor[8].split(",");
+                ajuste.setCin(Integer.parseInt(ajusteCapacitores[0]));
+                ajuste.setClen(Integer.parseInt(ajusteCapacitores[1]));
+                ajuste.setCout(Integer.parseInt(ajusteCapacitores[2]));
+                leitor.antena2 = new Antena(2,ajuste,125);
+                leitor.antena2.setReflexao(Integer.parseInt(ajusteCapacitores[3]));
+                ajusteCapacitores = parametrosLeitor[9].split(",");
+                ajuste.setCin(Integer.parseInt(ajusteCapacitores[0]));
+                ajuste.setClen(Integer.parseInt(ajusteCapacitores[1]));
+                ajuste.setCout(Integer.parseInt(ajusteCapacitores[2]));
+                leitor.antena3 = new Antena(3,ajuste,125);
+                leitor.antena3.setReflexao(Integer.parseInt(ajusteCapacitores[3]));
+                ajusteCapacitores = parametrosLeitor[10].split(",");
+                ajuste.setCin(Integer.parseInt(ajusteCapacitores[0]));
+                ajuste.setClen(Integer.parseInt(ajusteCapacitores[1]));
+                ajuste.setCout(Integer.parseInt(ajusteCapacitores[2]));
+                leitor.antena4 = new Antena(4,ajuste,125);
+                leitor.antena4.setReflexao(Integer.parseInt(ajusteCapacitores[3]));
+                ajusteCapacitores = parametrosLeitor[11].split(",");
+                ajuste.setCin(Integer.parseInt(ajusteCapacitores[0]));
+                ajuste.setClen(Integer.parseInt(ajusteCapacitores[1]));
+                ajuste.setCout(Integer.parseInt(ajusteCapacitores[2]));
+                leitor.antena5 = new Antena(5,ajuste,125);
+                leitor.antena5.setReflexao(Integer.parseInt(ajusteCapacitores[3]));
+                ajusteCapacitores = parametrosLeitor[12].split(",");
+                ajuste.setCin(Integer.parseInt(ajusteCapacitores[0]));
+                ajuste.setClen(Integer.parseInt(ajusteCapacitores[1]));
+                ajuste.setCout(Integer.parseInt(ajusteCapacitores[2]));
+                leitor.antena6 = new Antena(6,ajuste,125);
+                leitor.antena6.setReflexao(Integer.parseInt(ajusteCapacitores[3]));
+                ajusteCapacitores = parametrosLeitor[13].split(",");
+                ajuste.setCin(Integer.parseInt(ajusteCapacitores[0]));
+                ajuste.setClen(Integer.parseInt(ajusteCapacitores[1]));
+                ajuste.setCout(Integer.parseInt(ajusteCapacitores[2]));
+                leitor.antena7 = new Antena(7,ajuste,125);
+                leitor.antena7.setReflexao(Integer.parseInt(ajusteCapacitores[3]));
+                ajusteCapacitores = parametrosLeitor[14].split(",");
+                ajuste.setCin(Integer.parseInt(ajusteCapacitores[0]));
+                ajuste.setClen(Integer.parseInt(ajusteCapacitores[1]));
+                ajuste.setCout(Integer.parseInt(ajusteCapacitores[2]));
+                leitor.antena8 = new Antena(8,ajuste,125);
+                leitor.antena8.setReflexao(Integer.parseInt(ajusteCapacitores[3]));
+                leitor.frequenciaDeOperacao = Integer.parseInt(parametrosLeitor[15])+900;
+                leitor.idDoLeitor = parametrosLeitor[16];
+                leitor.ipRemotoPrincipal = parametrosLeitor[17];
+                leitor.ipRemotoSecundario = parametrosLeitor[18];
+                leitor.portaRemotaPrincipal = parametrosLeitor[19];
+                leitor.portaRemotaSecundaria = parametrosLeitor[20];
+                leitor.ssidWifi = parametrosLeitor[21];
+                leitor.senhaWifi = parametrosLeitor[22];
+                leitor.antena1.setSensibilidade(Integer.parseInt(parametrosLeitor[23]));
+                leitor.antena2.setSensibilidade(Integer.parseInt(parametrosLeitor[24]));
+                leitor.antena3.setSensibilidade(Integer.parseInt(parametrosLeitor[25]));
+                leitor.antena4.setSensibilidade(Integer.parseInt(parametrosLeitor[26]));
+                leitor.antena5.setSensibilidade(Integer.parseInt(parametrosLeitor[27]));
+                leitor.antena6.setSensibilidade(Integer.parseInt(parametrosLeitor[28]));
+                leitor.antena7.setSensibilidade(Integer.parseInt(parametrosLeitor[29]));
+                leitor.antena8.setSensibilidade(Integer.parseInt(parametrosLeitor[30]));
+                leitor.firmware = parametrosLeitor[31];                              
+
+                if(leitor.firmware.contains("FWEMP")){
+                    int timeout = 0;                
+                    leitor.tipoDoProduto = LeitorMarsOne.TipoProduto.EMPILHADEIRA; 
+
+                    // ENTRAR EM MODO DEBUG
+
+                    do{
+                        receivedData = "";
+                        conexaoCOM.writeString("#CMD35;\r\n\0"); 
+                        Thread.sleep(100);
+                        bufferRecebimentoCOM = receivedData;
+                        timeout++;
+                    }while(strstr(bufferRecebimentoCOM,"OK") < 0 && timeout < 10);
+
+                    // COLOCAR A INTERFACE WIFI EM MODO DE COMANDOS AT
+                    timeout = 0;  
+                    do{
+                        receivedData = "";
+                        conexaoCOM.writeString("#CMD37;+++\0"); 
+                        Thread.sleep(100);
+                        bufferRecebimentoCOM = receivedData;
+                        timeout++;
+                    }while(strstr(bufferRecebimentoCOM,"OK") < 0 && timeout < 3);
+
+                    // RESTART
+                    timeout = 0;  
+                    do{
+                        receivedData = "";
+                        //conexaoCOM.writeString("#CMD37;AT+RST\r\n\0"); 
+                        //Thread.sleep(1000);                        
+                        bufferRecebimentoCOM = receivedData;
+                        if(bufferRecebimentoCOM.length() > 0){
+                            bufferRecebimentoCOM = "ready";
+                        }
+                        else{
+                            bufferRecebimentoCOM = "NOK";
+                        }                     
+                        timeout++;
+                    }while(strstr(bufferRecebimentoCOM,"ready") < 0 && timeout <10);
+                    
+                    // OBTER INFORMAÇÕES DE REDE IP / GATEWAY / NETMASK
+                    timeout = 0;  
+                    do{
+                        receivedData = "";
+                        conexaoCOM.writeString("#CMD37;AT+CIPSTA_CUR?\r\n\0"); 
+                        Thread.sleep(100);
+                        bufferRecebimentoCOM = receivedData;
+                        if(bufferRecebimentoCOM.length() > 0){
+                            bufferRecebimentoCOM = receivedData;                    
+                            parametrosLeitor = bufferRecebimentoCOM.split("\"");                    
+                            leitor.ip = parametrosLeitor[1];
+                            leitor.gateway = parametrosLeitor[3];
+                            leitor.mask = parametrosLeitor[5];   
+                        }
+                        else{
+                            bufferRecebimentoCOM = "NOK";
+                        }                     
+                        timeout++;
+                    }while(strstr(bufferRecebimentoCOM,"+CIPSTA_CUR:") < 0 && timeout <10);
+
+                    // OBTER VALOR DE MAC ADDRESS
+                    timeout = 0;  
+                    do{
+                        receivedData = "";
+                        conexaoCOM.writeString("#CMD37;AT+CIPSTAMAC_CUR?\r\n\0"); 
+                        Thread.sleep(100);
+                        bufferRecebimentoCOM = receivedData;
+                        if(bufferRecebimentoCOM.length() > 0){                                              
+                            parametrosLeitor = bufferRecebimentoCOM.split("\"");                    
+                            leitor.mac = parametrosLeitor[1];
+                            bufferRecebimentoCOM = "OK";
+                        }
+                        else{
+                            bufferRecebimentoCOM = "NOK";
+                        }                          
+
+                        timeout++;
+                    }while(strstr(bufferRecebimentoCOM,"OK") < 0 && timeout <10);//while(strstr(bufferRecebimentoCOM,"+CIPSTAMAC_CUR:") < 0 && timeout <10);
+
+                    // SABER SE O DHCP ESTÁ HABILITADO OU NÃO
+                    timeout = 0;  
+                    do{
+                        boolean dhcp = false;
+                        receivedData = "";
+                        conexaoCOM.writeString("#CMD37;AT+CWDHCP_DEF?\r\n\0"); 
+                        Thread.sleep(100);
+                        bufferRecebimentoCOM = receivedData;
+                        if(bufferRecebimentoCOM.length()>0){
+                        //parametrosLeitor = bufferRecebimentoCOM.split(":");   
+                        dhcp = (bufferRecebimentoCOM.contains("3")||bufferRecebimentoCOM.contains("2")); // dhcp ativo
+                        if(dhcp){                        
+                            leitor.dhcpHabilitado = 1;
+                        }
+                        else{
+                            //cbDHCP_Empilhadeira.setSelected(false);
+                            leitor.dhcpHabilitado = 0;
+                        }
+                        bufferRecebimentoCOM = "OK";
+                        }
+                        else{
+                            bufferRecebimentoCOM = "NOK";
+                        }
+                        timeout++;
+                    }while(strstr(bufferRecebimentoCOM,"OK") < 0 && timeout <10);//while(strstr(bufferRecebimentoCOM,"+CWDHCP_DEF:") < 0 && timeout <10);
+
+                    // SAIR DO MODO DEBUG
+                    timeout = 0;  
+                    do{
+                        receivedData = "";
+                        conexaoCOM.writeString("#CMD36;\r\n\0"); 
+                        Thread.sleep(100);
+                        bufferRecebimentoCOM = receivedData;
+                        timeout++;
+                    }while(strstr(bufferRecebimentoCOM,"OK") < 0 && timeout <10);
+                }
+                else{
+                    if(leitor.firmware.contains("FWPORTAL")){
+                        int timeout = 0;    
+
+                        leitor.tipoDoProduto = LeitorMarsOne.TipoProduto.PORTAL;
+
+                        // DESLIGA DEBUG SILENT, CASO ESTEJA LIGADO
+                        
+                        timeout = 0;
+                        
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD43;\r\n\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"OK") < 0 && timeout <10);
+                        
+                        timeout = 0;
+                        
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD43;\r\n\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"OK") < 0 && timeout <10);
+                        
+                        timeout = 0;
+                        
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD43;\r\n\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"OK") < 0 && timeout <10);
+                        
+                        // ENTRAR EM MODO DEBUG         
+                        
+                        timeout = 0;
+                        
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD42;\r\n\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"OK") < 0 && timeout <10);
+                        
+                        timeout = 0;
+                        
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD42;\r\n\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"OK") < 0 && timeout <10);
+                        
+                        timeout = 0;
+                        
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD42;\r\n\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"OK") < 0 && timeout <10);
+
+                        // COLOCAR A INTERFACE ETHERNET EM MODO DE COMANDOS AT
+                        timeout = 0;  
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD44;+++\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"a") < 0 && timeout <10);
+                        
+                        timeout = 0;  
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD44;a\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"+ok") < 0 && timeout <10);
+
+                        // OBTER INFORMAÇÕES DE REDE IP / GATEWAY / NETMASK e DHCP
+                        timeout = 0;  
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD44;AT+WANN\r\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;   
+                                if(strstr(bufferRecebimentoCOM,"+OK") >= 0){
+                                    parametrosLeitor = bufferRecebimentoCOM.replace("\r\n","").split(",");
+
+                                    leitor.ip = parametrosLeitor[1];
+                                    leitor.gateway = parametrosLeitor[3];
+                                    leitor.mask = parametrosLeitor[2];
+                                    if(strstr(bufferRecebimentoCOM,"DHCP")>=0){
+                                        leitor.dhcpHabilitado = 1; 
+                                    }
+                                    else{
+                                        if(strstr(bufferRecebimentoCOM,"STATIC")>=0){
+                                            leitor.dhcpHabilitado = 0;
+                                        }                                
+                                    }
+                                }
+                            
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"+OK") < 0 && timeout <10);
+
+                        // OBTER VALOR DE MAC ADDRESS
+                        timeout = 0;  
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD44;AT+MAC\r\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;     
+                            if(!bufferRecebimentoCOM.isEmpty()){
+                                parametrosLeitor = bufferRecebimentoCOM.split("=");                    
+                                leitor.mac = (parametrosLeitor[1].substring(0,2) + ":" + 
+                                             parametrosLeitor[1].substring(2,4) + ":" + 
+                                             parametrosLeitor[1].substring(4,6) + ":" +
+                                             parametrosLeitor[1].substring(6,8) + ":" + 
+                                             parametrosLeitor[1].substring(8,10) + ":" + 
+                                             parametrosLeitor[1].substring(10,12));
+                            }
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"+OK") < 0 && timeout <10);
+
+                        // SABER SE O DHCP ESTÁ HABILITADO OU NÃO
+                        /*
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD37;AT+CWDHCP_DEF?\r\n\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;
+                            parametrosLeitor = bufferRecebimentoCOM.split(":");                   
+                            if(Integer.parseInt(String.valueOf(parametrosLeitor[1].charAt(0))) > 1){                        
+                                leitor.dhcpHabilitado = 1;
+                            }
+                            else{
+                                //cbDHCP_Empilhadeira.setSelected(false);
+                                leitor.dhcpHabilitado = 0;
+                            }
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"+CWDHCP_DEF:") < 0 && timeout <10);
+                        */
+
+                        // SALVAR CONFIGURAÇÕES NA MEMÓRIA
+                        timeout = 0;  
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD44;AT+CFGTF\r\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"+OK=saved") < 0 && timeout <10);
+
+                        // SAIR DO MODO DEBUG
+                        timeout = 0;  
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD44;AT+Z\r\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"+OK") < 0 && timeout <10);
+                        
+                        timeout = 0;  
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD43;\r\n\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"OK") < 0 && timeout <10);
+                        
+                        timeout = 0;  
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD43;\r\n\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"OK") < 0 && timeout <10);
+                        
+                        timeout = 0;  
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD43;\r\n\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"OK") < 0 && timeout <10);
+                        
+                        timeout = 0;  
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD43;\r\n\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"OK") < 0 && timeout <10);
+                        
+                        timeout = 0;  
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD43;\r\n\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"OK") < 0 && timeout <10);
+                        
+                        timeout = 0;  
+                        do{
+                            receivedData = "";
+                            conexaoCOM.writeString("#CMD43;\r\n\0"); 
+                            Thread.sleep(100);
+                            bufferRecebimentoCOM = receivedData;
+                            timeout++;
+                        }while(strstr(bufferRecebimentoCOM,"OK") < 0 && timeout <10);
+                    }
+                }
+            }  
             
-            leitor.modoDeOperacao = Integer.parseInt(parametrosLeitor[1]);
-            leitor.atrasoParaDegradarLeitura = Integer.parseInt(parametrosLeitor[2]);
-            leitor.repeticaoNaLeitura = Integer.parseInt(parametrosLeitor[3]);
-            leitor.sensibilidadeDaAntena = Integer.parseInt(parametrosLeitor[4]);
-            leitor.tempoParaInatividadeDaTagMonitorada = Integer.parseInt(parametrosLeitor[5]);
-            leitor.numeroDeAntenasLidas = Integer.parseInt(parametrosLeitor[6]);
-            ajusteCapacitores = parametrosLeitor[7].split(",");
-            ajuste.setCin(Integer.parseInt(ajusteCapacitores[0]));
-            ajuste.setClen(Integer.parseInt(ajusteCapacitores[1]));
-            ajuste.setCout(Integer.parseInt(ajusteCapacitores[2]));            
-            leitor.antena1 = new Antena(1,ajuste,125);
-            leitor.antena1.setReflexao(Integer.parseInt(ajusteCapacitores[3]));
-            ajusteCapacitores = parametrosLeitor[8].split(",");
-            ajuste.setCin(Integer.parseInt(ajusteCapacitores[0]));
-            ajuste.setClen(Integer.parseInt(ajusteCapacitores[1]));
-            ajuste.setCout(Integer.parseInt(ajusteCapacitores[2]));
-            leitor.antena2 = new Antena(2,ajuste,125);
-            leitor.antena2.setReflexao(Integer.parseInt(ajusteCapacitores[3]));
-            ajusteCapacitores = parametrosLeitor[9].split(",");
-            ajuste.setCin(Integer.parseInt(ajusteCapacitores[0]));
-            ajuste.setClen(Integer.parseInt(ajusteCapacitores[1]));
-            ajuste.setCout(Integer.parseInt(ajusteCapacitores[2]));
-            leitor.antena3 = new Antena(3,ajuste,125);
-            leitor.antena3.setReflexao(Integer.parseInt(ajusteCapacitores[3]));
-            ajusteCapacitores = parametrosLeitor[10].split(",");
-            ajuste.setCin(Integer.parseInt(ajusteCapacitores[0]));
-            ajuste.setClen(Integer.parseInt(ajusteCapacitores[1]));
-            ajuste.setCout(Integer.parseInt(ajusteCapacitores[2]));
-            leitor.antena4 = new Antena(4,ajuste,125);
-            leitor.antena4.setReflexao(Integer.parseInt(ajusteCapacitores[3]));
-            ajusteCapacitores = parametrosLeitor[11].split(",");
-            ajuste.setCin(Integer.parseInt(ajusteCapacitores[0]));
-            ajuste.setClen(Integer.parseInt(ajusteCapacitores[1]));
-            ajuste.setCout(Integer.parseInt(ajusteCapacitores[2]));
-            leitor.antena5 = new Antena(5,ajuste,125);
-            leitor.antena5.setReflexao(Integer.parseInt(ajusteCapacitores[3]));
-            ajusteCapacitores = parametrosLeitor[12].split(",");
-            ajuste.setCin(Integer.parseInt(ajusteCapacitores[0]));
-            ajuste.setClen(Integer.parseInt(ajusteCapacitores[1]));
-            ajuste.setCout(Integer.parseInt(ajusteCapacitores[2]));
-            leitor.antena6 = new Antena(6,ajuste,125);
-            leitor.antena6.setReflexao(Integer.parseInt(ajusteCapacitores[3]));
-            ajusteCapacitores = parametrosLeitor[13].split(",");
-            ajuste.setCin(Integer.parseInt(ajusteCapacitores[0]));
-            ajuste.setClen(Integer.parseInt(ajusteCapacitores[1]));
-            ajuste.setCout(Integer.parseInt(ajusteCapacitores[2]));
-            leitor.antena7 = new Antena(7,ajuste,125);
-            leitor.antena7.setReflexao(Integer.parseInt(ajusteCapacitores[3]));
-            ajusteCapacitores = parametrosLeitor[14].split(",");
-            ajuste.setCin(Integer.parseInt(ajusteCapacitores[0]));
-            ajuste.setClen(Integer.parseInt(ajusteCapacitores[1]));
-            ajuste.setCout(Integer.parseInt(ajusteCapacitores[2]));
-            leitor.antena8 = new Antena(8,ajuste,125);
-            leitor.antena8.setReflexao(Integer.parseInt(ajusteCapacitores[3]));
-            leitor.frequenciaDeOperacao = Integer.parseInt(parametrosLeitor[15])+900;
-            leitor.idDoLeitor = parametrosLeitor[16];
-            leitor.ipRemotoPrincipal = parametrosLeitor[17];
-            leitor.ipRemotoSecundario = parametrosLeitor[18];
-            leitor.portaRemotaPrincipal = parametrosLeitor[19];
-            leitor.portaRemotaSecundaria = parametrosLeitor[20];
-            leitor.ssidWifi = parametrosLeitor[21];
-            leitor.senhaWifi = parametrosLeitor[22];
-            leitor.antena1.setSensibilidade(Integer.parseInt(parametrosLeitor[23]));
-            leitor.antena2.setSensibilidade(Integer.parseInt(parametrosLeitor[24]));
-            leitor.antena3.setSensibilidade(Integer.parseInt(parametrosLeitor[25]));
-            leitor.antena4.setSensibilidade(Integer.parseInt(parametrosLeitor[26]));
-            leitor.antena5.setSensibilidade(Integer.parseInt(parametrosLeitor[27]));
-            leitor.antena6.setSensibilidade(Integer.parseInt(parametrosLeitor[28]));
-            leitor.antena7.setSensibilidade(Integer.parseInt(parametrosLeitor[29]));
-            leitor.antena8.setSensibilidade(Integer.parseInt(parametrosLeitor[30]));
-            leitor.firmware = parametrosLeitor[31];                              
-            
-            if(leitor.firmware.contains("FWEMP")){
-                leitor.tipoDoProduto = LeitorMarsOne.TipoProduto.EMPILHADEIRA;                
-            }
-            else{
-                leitor.tipoDoProduto = LeitorMarsOne.TipoProduto.PORTAL;
-            }            
         }
         catch(Exception ex){
-            System.out.printf(ex.getMessage());
+            //throw ex;
+            return lerParametrosDoLeitor(port);
         }
         return leitor;
-    }
+    }   
     
     public String encriptar(String dado){
         char chararray[] = dado.toCharArray();
@@ -1922,7 +3908,90 @@ public class Main extends javax.swing.JFrame {
         txtfCoutAnt4.setText(String.valueOf(empilhadeira.antena4.getCout()));
         txtfReflexaoAnt4.setText(String.valueOf(empilhadeira.antena4.getReflexao())); 
         
+        txtbIp_Empilhadeira.setText(empilhadeira.ip); // CARREGA O VALOR DO IP NO CAMPO
+        txtbGateway_Empilhadeira.setText(empilhadeira.gateway); // CARREGA O VALOR DO GATEWAY NO CAMPO
+        txtbMask_Empilhadeira.setText(empilhadeira.mask); // CARREGA O VALOR DA MÁSCARA DE REDE NO CAMPO
+        txtbMac_Empilhadeira.setText(empilhadeira.mac);
+        
+        if(empilhadeira.dhcpHabilitado > 0)
+        {
+            cbDHCP_Empilhadeira.setSelected(true);
+        }
+        else{
+            cbDHCP_Empilhadeira.setSelected(false);
+        }
+        
+        
         tbpanemodelo.addTab(nomeAba, novaAbaDeEmpilhadeira);
+    }
+    
+    public void adicionarAbaDePortal(String nomeAba, LeitorMarsOne portal){
+      
+        javax.swing.JTabbedPane novaAbaDePortal = new javax.swing.JTabbedPane();
+        
+        novaAbaDePortal = tbpanePortal;
+        
+        // GERAL
+        txtfFrequenciaDeOperacaoPortal.setText(String.valueOf(portal.frequenciaDeOperacao));
+        txtfIdPortal.setText(portal.idDoLeitor);
+        
+        txtfModoOperacaoPortal.setText(String.valueOf(portal.modoDeOperacao));
+        txtfAtrasoParaDegradarLeituraPortal.setText(String.valueOf(portal.atrasoParaDegradarLeitura));
+        txtfTempoInatividadeTagPortal.setText(String.valueOf(portal.tempoParaInatividadeDaTagMonitorada));
+        txtfNumAntenasLidasPortal.setText(String.valueOf(portal.numeroDeAntenasLidas));
+        txtfSensibilidadeAntenasPortal.setText(String.valueOf(portal.sensibilidadeDaAntena));
+        txtfRepeticaoNaLeituraPortal.setText(String.valueOf(portal.repeticaoNaLeitura));
+        
+        //txtfSsidWifi.setText(portal.ssidWifi);
+        //txtfSenhaWifi.setText(portal.senhaWifi);
+        txtfIpPrincipalPortal.setText(portal.ipRemotoPrincipal);
+        txtfIpBackupPortal.setText(portal.ipRemotoSecundario);
+        txtfPortaPrincipalPortal.setText(portal.portaRemotaPrincipal);
+        txtfPortaBackupPortal.setText(portal.portaRemotaSecundaria);
+        
+        // ANTENAS
+        //txtfFrequenciaDeOperacao.setText(String.valueOf(portal.antena1.getFrequencia()));
+        //txtfRssiMinAnt1Portal.setValue(portal.antena1.getSensibilidade());
+        txtfCinAnt1Portal.setText(String.valueOf(portal.antena1.getCin()));
+        txtfClenAnt1Portal.setText(String.valueOf(portal.antena1.getClen()));
+        txtfCoutAnt1Portal.setText(String.valueOf(portal.antena1.getCout()));
+        txtfReflexaoAnt1Portal.setText(String.valueOf(portal.antena1.getReflexao())); 
+        
+        //txtfFrequenciaAnt2.setText(String.valueOf(portal.antena2.getFrequencia()));
+        //txtfRssiMinAnt2Portal.setValue(portal.antena1.getSensibilidade());
+        txtfCinAnt2Portal.setText(String.valueOf(portal.antena2.getCin()));
+        txtfClenAnt2Portal.setText(String.valueOf(portal.antena2.getClen()));
+        txtfCoutAnt2Portal.setText(String.valueOf(portal.antena2.getCout()));
+        txtfReflexaoAnt2Portal.setText(String.valueOf(portal.antena2.getReflexao())); 
+        
+        //txtfFrequenciaAnt3.setText(String.valueOf(portal.antena3.getFrequencia()));
+        //txtfRssiMinAnt3Portal.setValue(portal.antena3.getSensibilidade());
+        txtfCinAnt3Portal.setText(String.valueOf(portal.antena3.getCin()));
+        txtfClenAnt3Portal.setText(String.valueOf(portal.antena3.getClen()));
+        txtfCoutAnt3Portal.setText(String.valueOf(portal.antena3.getCout()));
+        txtfReflexaoAnt3Portal.setText(String.valueOf(portal.antena3.getReflexao())); 
+        
+        //txtfFrequenciaAnt4.setText(String.valueOf(portal.antena4.getFrequencia()));
+        //txtfRssiMinAnt4Portal.setValue(portal.antena4.getSensibilidade());
+        txtfCinAnt4Portal.setText(String.valueOf(portal.antena4.getCin()));
+        txtfClenAnt4Portal.setText(String.valueOf(portal.antena4.getClen()));
+        txtfCoutAnt4Portal.setText(String.valueOf(portal.antena4.getCout()));
+        txtfReflexaoAnt4Portal.setText(String.valueOf(portal.antena4.getReflexao())); 
+        
+        txtbIp_Portal.setText(portal.ip); // CARREGA O VALOR DO IP NO CAMPO
+        txtbGateway_Portal.setText(portal.gateway); // CARREGA O VALOR DO GATEWAY NO CAMPO
+        txtbMask_Portal.setText(portal.mask); // CARREGA O VALOR DA MÁSCARA DE REDE NO CAMPO
+        txtbMac_Portal.setText(portal.mac);
+        
+        if(portal.dhcpHabilitado > 0)
+        {
+            cbDHCP_Portal.setSelected(true);
+        }
+        else{
+            cbDHCP_Portal.setSelected(false);
+        }
+        
+        tbpanemodelo.addTab(nomeAba, novaAbaDePortal);       
     }
 
     public static int strstr(String X, String Y){
@@ -1983,32 +4052,83 @@ public class Main extends javax.swing.JFrame {
                     leitorCarregado.tipoDoProduto = parametros[0].compareTo("EMPILHADEIRA")==0 ? LeitorMarsOne.TipoProduto.EMPILHADEIRA:LeitorMarsOne.TipoProduto.PORTAL;
                     leitorCarregado.firmware = parametros[1];
                     
-                    leitorCarregado.antena1 = new Antena(Integer.parseInt(parametros[2]),Integer.parseInt(parametros[3]),Integer.parseInt(parametros[4]),
-                                                         Integer.parseInt(parametros[5]),Integer.parseInt(parametros[6]),Integer.parseInt(parametros[7]));
-                    leitorCarregado.antena2 = new Antena(Integer.parseInt(parametros[8]),Integer.parseInt(parametros[9]),Integer.parseInt(parametros[10]),
-                                                         Integer.parseInt(parametros[11]),Integer.parseInt(parametros[12]),Integer.parseInt(parametros[13]));
-                    leitorCarregado.antena3 = new Antena(Integer.parseInt(parametros[14]),Integer.parseInt(parametros[15]),Integer.parseInt(parametros[16]),
-                                                         Integer.parseInt(parametros[17]),Integer.parseInt(parametros[18]),Integer.parseInt(parametros[19]));
-                    leitorCarregado.antena4 = new Antena(Integer.parseInt(parametros[20]),Integer.parseInt(parametros[21]),Integer.parseInt(parametros[22]),
-                                                         Integer.parseInt(parametros[23]),Integer.parseInt(parametros[24]),Integer.parseInt(parametros[25]));
-                    
-                    leitorCarregado.idDoLeitor = parametros[26];
-                    leitorCarregado.ipRemotoPrincipal = parametros[27];
-                    leitorCarregado.ipRemotoSecundario = parametros[28];
-                    leitorCarregado.portaRemotaPrincipal = parametros[29];
-                    leitorCarregado.portaRemotaSecundaria = parametros[30];
-                    leitorCarregado.ssidWifi = parametros[31];
-                    leitorCarregado.senhaWifi = decriptar(parametros[32]);
-                    leitorCarregado.frequenciaDeOperacao = Integer.parseInt(parametros[33]);
-                    
-                    leitorCarregado.antena1.setReflexao(Integer.parseInt(parametros[34]));
-                    leitorCarregado.antena2.setReflexao(Integer.parseInt(parametros[35]));
-                    leitorCarregado.antena3.setReflexao(Integer.parseInt(parametros[36]));
-                    leitorCarregado.antena4.setReflexao(Integer.parseInt(parametros[37]));
-                    
-                    equipamentosAbertos.clear();
-                    equipamentosAbertos.add(leitorCarregado);
-                    adicionarAbaDeEmpilhadeira(leitorCarregado.nomeDoArquivo,leitorCarregado);
+                    switch(leitorCarregado.tipoDoProduto){
+                        case EMPILHADEIRA:
+                                leitorCarregado.antena1 = new Antena(Integer.parseInt(parametros[2]),Integer.parseInt(parametros[3]),Integer.parseInt(parametros[4]),
+                                                                     Integer.parseInt(parametros[5]),Integer.parseInt(parametros[6]),Integer.parseInt(parametros[7]));
+                                leitorCarregado.antena2 = new Antena(Integer.parseInt(parametros[8]),Integer.parseInt(parametros[9]),Integer.parseInt(parametros[10]),
+                                                                     Integer.parseInt(parametros[11]),Integer.parseInt(parametros[12]),Integer.parseInt(parametros[13]));
+                                leitorCarregado.antena3 = new Antena(Integer.parseInt(parametros[14]),Integer.parseInt(parametros[15]),Integer.parseInt(parametros[16]),
+                                                                     Integer.parseInt(parametros[17]),Integer.parseInt(parametros[18]),Integer.parseInt(parametros[19]));
+                                leitorCarregado.antena4 = new Antena(Integer.parseInt(parametros[20]),Integer.parseInt(parametros[21]),Integer.parseInt(parametros[22]),
+                                                                     Integer.parseInt(parametros[23]),Integer.parseInt(parametros[24]),Integer.parseInt(parametros[25]));
+
+                                leitorCarregado.idDoLeitor = parametros[26];
+                                leitorCarregado.ipRemotoPrincipal = parametros[27];
+                                leitorCarregado.ipRemotoSecundario = parametros[28];
+                                leitorCarregado.portaRemotaPrincipal = parametros[29];
+                                leitorCarregado.portaRemotaSecundaria = parametros[30];
+                                leitorCarregado.ssidWifi = parametros[31];
+                                leitorCarregado.senhaWifi = decriptar(parametros[32]);
+                                leitorCarregado.frequenciaDeOperacao = Integer.parseInt(parametros[33]);
+
+                                leitorCarregado.antena1.setReflexao(Integer.parseInt(parametros[34]));
+                                leitorCarregado.antena2.setReflexao(Integer.parseInt(parametros[35]));
+                                leitorCarregado.antena3.setReflexao(Integer.parseInt(parametros[36]));
+                                leitorCarregado.antena4.setReflexao(Integer.parseInt(parametros[37]));
+                                
+                                leitorCarregado.dhcpHabilitado = Integer.parseInt(parametros[38]);
+                                leitorCarregado.ip = parametros[39];
+                                leitorCarregado.gateway = parametros[40];
+                                leitorCarregado.mask = parametros[41];
+                                leitorCarregado.mac = parametros[42];
+                                
+                                equipamentosAbertos.clear();
+                                equipamentosAbertos.add(leitorCarregado);
+                                adicionarAbaDeEmpilhadeira(leitorCarregado.nomeDoArquivo,leitorCarregado);
+                            break;
+                        case PORTAL:                                
+                                leitorCarregado.antena1 = new Antena(Integer.parseInt(parametros[2]),Integer.parseInt(parametros[3]),Integer.parseInt(parametros[4]),
+                                                                     Integer.parseInt(parametros[5]),Integer.parseInt(parametros[6]),Integer.parseInt(parametros[7]));
+                                leitorCarregado.antena2 = new Antena(Integer.parseInt(parametros[8]),Integer.parseInt(parametros[9]),Integer.parseInt(parametros[10]),
+                                                                     Integer.parseInt(parametros[11]),Integer.parseInt(parametros[12]),Integer.parseInt(parametros[13]));
+                                leitorCarregado.antena3 = new Antena(Integer.parseInt(parametros[14]),Integer.parseInt(parametros[15]),Integer.parseInt(parametros[16]),
+                                                                     Integer.parseInt(parametros[17]),Integer.parseInt(parametros[18]),Integer.parseInt(parametros[19]));
+                                leitorCarregado.antena4 = new Antena(Integer.parseInt(parametros[20]),Integer.parseInt(parametros[21]),Integer.parseInt(parametros[22]),
+                                                                     Integer.parseInt(parametros[23]),Integer.parseInt(parametros[24]),Integer.parseInt(parametros[25]));
+
+                                leitorCarregado.idDoLeitor = parametros[26];
+                                leitorCarregado.ipRemotoPrincipal = parametros[27];
+                                leitorCarregado.ipRemotoSecundario = parametros[28];
+                                leitorCarregado.portaRemotaPrincipal = parametros[29];
+                                leitorCarregado.portaRemotaSecundaria = parametros[30];
+                                leitorCarregado.modoDeOperacao = Integer.parseInt(parametros[31]);
+                                leitorCarregado.atrasoParaDegradarLeitura = Integer.parseInt(parametros[32]);
+                                leitorCarregado.frequenciaDeOperacao = Integer.parseInt(parametros[33]);
+
+                                leitorCarregado.antena1.setReflexao(Integer.parseInt(parametros[34]));
+                                leitorCarregado.antena2.setReflexao(Integer.parseInt(parametros[35]));
+                                leitorCarregado.antena3.setReflexao(Integer.parseInt(parametros[36]));
+                                leitorCarregado.antena4.setReflexao(Integer.parseInt(parametros[37]));
+
+                                leitorCarregado.repeticaoNaLeitura = Integer.parseInt(parametros[38]);
+                                leitorCarregado.sensibilidadeDaAntena = Integer.parseInt(parametros[39]);
+                                leitorCarregado.tempoParaInatividadeDaTagMonitorada = Integer.parseInt(parametros[40]);
+                                leitorCarregado.numeroDeAntenasLidas = Integer.parseInt(parametros[41]);
+                                
+                                leitorCarregado.dhcpHabilitado = Integer.parseInt(parametros[42]);
+                                leitorCarregado.ip = parametros[43];
+                                leitorCarregado.gateway = parametros[44];
+                                leitorCarregado.mask = parametros[45];
+                                leitorCarregado.mac = parametros[46];
+                                
+                                equipamentosAbertos.clear();
+                                equipamentosAbertos.add(leitorCarregado);
+                                
+                                adicionarAbaDePortal(leitorCarregado.nomeDoArquivo,leitorCarregado);
+                                tbpanemodelo.setVisible(true);
+                                break;
+                    }                    
                 }
             }
             catch(Exception ex){
@@ -2082,6 +4202,7 @@ public class Main extends javax.swing.JFrame {
                             salvarEmpilhadeira(leitor);
                             break;
                         case PORTAL:
+                            salvarPortal(leitor);
                             break;
                     }
                     //adicionarAbaDeEmpilhadeira(fileToSave.getName(),leitor); 
@@ -2150,7 +4271,13 @@ public class Main extends javax.swing.JFrame {
                                empilhadeira.antena1.getReflexao() + ";" +
                                empilhadeira.antena2.getReflexao() + ";" +
                                empilhadeira.antena3.getReflexao() + ";" +
-                               empilhadeira.antena4.getReflexao()
+                               empilhadeira.antena4.getReflexao() + ";" +
+                               
+                               empilhadeira.dhcpHabilitado  + ";" +
+                               empilhadeira.ip  + ";" +
+                               empilhadeira.gateway + ";" +
+                               empilhadeira.mask + ";" +
+                               empilhadeira.mac
                                );
                 escritor.close();
             }
@@ -2160,6 +4287,84 @@ public class Main extends javax.swing.JFrame {
         }
     }
   
+    public void salvarPortal(LeitorMarsOne portal) throws IOException{
+        
+        File fileToSave = new File(portal.caminhoDoArquivo);
+        
+        FileWriter escritor = new FileWriter(portal.caminhoDoArquivo);
+        try{
+            fileToSave.createNewFile();
+            if(fileToSave.canWrite()){
+                escritor.write(portal.tipoDoProduto + ";" +
+                               portal.firmware + ";" +
+                        
+                               portal.antena1.getCanal() + ";" +
+                               portal.antena1.getFrequencia() + ";" +                               
+                               portal.antena1.getCin() + ";" +
+                               portal.antena1.getClen() + ";" +
+                               portal.antena1.getCout() + ";" +    
+                               portal.antena1.getSensibilidade() + ";" +
+                               //portal.antena1.getReflexao() + ";" +
+                               
+                               portal.antena2.getCanal() + ";" +
+                               portal.antena2.getFrequencia() + ";" +                               
+                               portal.antena2.getCin() + ";" +
+                               portal.antena2.getClen() + ";" +
+                               portal.antena2.getCout() + ";" +   
+                               portal.antena2.getSensibilidade() + ";" +
+                               //portal.antena2.getReflexao() + ";" +
+                        
+                               portal.antena3.getCanal() + ";" +
+                               portal.antena3.getFrequencia() + ";" +                               
+                               portal.antena3.getCin() + ";" +
+                               portal.antena3.getClen() + ";" +
+                               portal.antena3.getCout() + ";" +   
+                               portal.antena3.getSensibilidade() + ";" +
+                               //portal.antena3.getReflexao() + ";" +
+                        
+                               portal.antena4.getCanal() + ";" +
+                               portal.antena4.getFrequencia() + ";" +
+                               portal.antena4.getCin() + ";" +
+                               portal.antena4.getClen() + ";" +
+                               portal.antena4.getCout() + ";" +
+                               portal.antena4.getSensibilidade() + ";" +
+                               //portal.antena4.getReflexao() + ";" +
+
+                               portal.idDoLeitor + ";" +                               
+                               portal.ipRemotoPrincipal + ";" +
+                               portal.ipRemotoSecundario + ";" +
+                               portal.portaRemotaPrincipal + ";" +
+                               portal.portaRemotaSecundaria + ";" +
+                               
+                               portal.modoDeOperacao + ";" + 
+                               portal.atrasoParaDegradarLeitura + ";" +
+                               //portal.ssidWifi + ";" +
+                               //encriptar(portal.senhaWifi) + ";" +
+                               portal.frequenciaDeOperacao + ";" +
+                        
+                               portal.antena1.getReflexao() + ";" +
+                               portal.antena2.getReflexao() + ";" +
+                               portal.antena3.getReflexao() + ";" +
+                               portal.antena4.getReflexao() + ";" +
+                        
+                               portal.repeticaoNaLeitura + ";" +
+                               portal.sensibilidadeDaAntena + ";" +
+                               portal.tempoParaInatividadeDaTagMonitorada + ";" +
+                               portal.numeroDeAntenasLidas + ";" +
+                        
+                               portal.dhcpHabilitado  + ";" +
+                               portal.ip  + ";" +
+                               portal.gateway + ";" +
+                               portal.mask + ";" +
+                               portal.mac
+                               );
+                escritor.close();
+            }
+        }        
+        catch(IOException ex){
+            throw ex;
+        }
+    }
     /**
      * @param args the command line arguments
      */
@@ -2201,11 +4406,32 @@ public class Main extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAtualizar;
     private javax.swing.JButton btnCalibracaoAuto;
+    private javax.swing.JButton btnCalibracaoAutoPortal;
+    private javax.swing.JButton btnEnviarComandoEmpilhadeira;
+    private javax.swing.JButton btnEnviarComandoPortal;
+    private javax.swing.JButton btnFecharConexaoSerial;
     private javax.swing.JButton btnGravar;
     private javax.swing.JButton btnLer;
+    private javax.swing.JButton btnLimparConsoleEmpilhadeira;
+    private javax.swing.JButton btnLimparConsolePortal;
+    private javax.swing.JCheckBox cbDHCP_Empilhadeira;
+    private javax.swing.JCheckBox cbDHCP_Portal;
     private javax.swing.JComboBox<String> cbPorts;
+    private javax.swing.JCheckBox ckbCR;
+    private javax.swing.JCheckBox ckbCR_Portal;
+    private javax.swing.JCheckBox ckbLF;
+    private javax.swing.JCheckBox ckbLF_Portal;
+    private javax.swing.JCheckBox ckbNULL;
+    private javax.swing.JCheckBox ckbNULL_Portal;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel100;
+    private javax.swing.JLabel jLabel101;
+    private javax.swing.JLabel jLabel102;
+    private javax.swing.JLabel jLabel103;
+    private javax.swing.JLabel jLabel104;
+    private javax.swing.JLabel jLabel105;
+    private javax.swing.JLabel jLabel106;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
@@ -2216,6 +4442,7 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
@@ -2251,32 +4478,113 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel50;
     private javax.swing.JLabel jLabel51;
     private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel53;
+    private javax.swing.JLabel jLabel54;
+    private javax.swing.JLabel jLabel55;
+    private javax.swing.JLabel jLabel56;
+    private javax.swing.JLabel jLabel57;
+    private javax.swing.JLabel jLabel58;
+    private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel60;
+    private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel62;
+    private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel66;
+    private javax.swing.JLabel jLabel68;
+    private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel70;
+    private javax.swing.JLabel jLabel71;
+    private javax.swing.JLabel jLabel73;
+    private javax.swing.JLabel jLabel74;
+    private javax.swing.JLabel jLabel75;
+    private javax.swing.JLabel jLabel76;
+    private javax.swing.JLabel jLabel77;
+    private javax.swing.JLabel jLabel78;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel80;
+    private javax.swing.JLabel jLabel81;
+    private javax.swing.JLabel jLabel82;
+    private javax.swing.JLabel jLabel83;
+    private javax.swing.JLabel jLabel85;
+    private javax.swing.JLabel jLabel86;
+    private javax.swing.JLabel jLabel87;
+    private javax.swing.JLabel jLabel88;
+    private javax.swing.JLabel jLabel89;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel jLabel90;
+    private javax.swing.JLabel jLabel92;
+    private javax.swing.JLabel jLabel93;
+    private javax.swing.JLabel jLabel94;
+    private javax.swing.JLabel jLabel95;
+    private javax.swing.JLabel jLabel97;
+    private javax.swing.JLabel jLabel98;
+    private javax.swing.JLabel jLabel99;
     private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JToolBar.Separator jSeparator1;
     private javax.swing.JToolBar.Separator jSeparator2;
     private javax.swing.JToolBar.Separator jSeparator3;
     private javax.swing.JToolBar jToolBar1;
     private javax.swing.JLabel lblDicaIdLeitor;
     private javax.swing.JLabel lblDicaIdLeitor1;
+    private javax.swing.JLabel lblDicaIdLeitor2;
+    private javax.swing.JLabel lblDicaIdLeitor3;
+    private javax.swing.JLabel lblDicaIdLeitor4;
+    private javax.swing.JLabel lblDicaIdLeitor5;
     private javax.swing.JLabel lblDicaIpBackup;
+    private javax.swing.JLabel lblDicaIpBackup1;
     private javax.swing.JLabel lblDicaIpPrincipal;
+    private javax.swing.JLabel lblDicaIpPrincipal1;
+    private javax.swing.JLabel lblDicaIpPrincipal10;
+    private javax.swing.JLabel lblDicaIpPrincipal11;
+    private javax.swing.JLabel lblDicaIpPrincipal2;
+    private javax.swing.JLabel lblDicaIpPrincipal3;
+    private javax.swing.JLabel lblDicaIpPrincipal4;
+    private javax.swing.JLabel lblDicaIpPrincipal5;
+    private javax.swing.JLabel lblDicaIpPrincipal6;
+    private javax.swing.JLabel lblDicaIpPrincipal7;
+    private javax.swing.JLabel lblDicaIpPrincipal8;
+    private javax.swing.JLabel lblDicaIpPrincipal9;
     private javax.swing.JLabel lblDicaPortaBackup;
+    private javax.swing.JLabel lblDicaPortaBackup1;
     private javax.swing.JLabel lblDicaPortaPrincipal;
+    private javax.swing.JLabel lblDicaPortaPrincipal1;
     private javax.swing.JLabel lblDicaSenhaWifi;
     private javax.swing.JLabel lblDicaSsidWifi;
     private javax.swing.JLabel lblIdEmpilhadeira;
+    private javax.swing.JLabel lblIdEmpilhadeira1;
+    private javax.swing.JLabel lblIdEmpilhadeira2;
+    private javax.swing.JLabel lblIdEmpilhadeira3;
+    private javax.swing.JLabel lblIdEmpilhadeira4;
+    private javax.swing.JLabel lblIdEmpilhadeira5;
     private javax.swing.JLabel lblIpBackup;
+    private javax.swing.JLabel lblIpBackup1;
     private javax.swing.JLabel lblIpPrincipal;
+    private javax.swing.JLabel lblIpPrincipal1;
+    private javax.swing.JLabel lblIpPrincipal2;
+    private javax.swing.JLabel lblIpPrincipal3;
+    private javax.swing.JLabel lblIpPrincipal4;
+    private javax.swing.JLabel lblIpPrincipal5;
+    private javax.swing.JLabel lblIpPrincipal6;
+    private javax.swing.JLabel lblIpPrincipal7;
+    private javax.swing.JLabel lblIpPrincipal8;
+    private javax.swing.JLabel lblIpPrincipal9;
     private javax.swing.JLabel lblParamGerais;
+    private javax.swing.JLabel lblParamGerais1;
     private javax.swing.JLabel lblPortaBackup;
+    private javax.swing.JLabel lblPortaBackup1;
     private javax.swing.JLabel lblPortaPrincipal;
+    private javax.swing.JLabel lblPortaPrincipal1;
     private javax.swing.JLabel lblSenhaWifi;
     private javax.swing.JLabel lblServidorBackup;
+    private javax.swing.JLabel lblServidorBackup1;
     private javax.swing.JLabel lblServidorPrincipal;
+    private javax.swing.JLabel lblServidorPrincipal1;
     private javax.swing.JLabel lblSsidWifi;
     private javax.swing.JMenuItem menuAbrir;
     private javax.swing.JMenu menuNovo;
@@ -2294,40 +4602,94 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JPanel panelAntena2;
     private javax.swing.JPanel panelAntena3;
     private javax.swing.JPanel panelAntena4;
+    private javax.swing.JPanel panelAntena5;
+    private javax.swing.JPanel panelAntena6;
+    private javax.swing.JPanel panelAntena7;
+    private javax.swing.JPanel panelAntena8;
     private javax.swing.JPanel panelAntenas;
+    private javax.swing.JPanel panelAntenas1;
     private javax.swing.JPanel panelGeral;
+    private javax.swing.JPanel panelGeral1;
     private javax.swing.JSeparator separador1;
+    private javax.swing.JSeparator separador10;
+    private javax.swing.JSeparator separador11;
     private javax.swing.JSeparator separador2;
+    private javax.swing.JSeparator separador4;
+    private javax.swing.JSeparator separador5;
+    private javax.swing.JSeparator separador6;
+    private javax.swing.JSeparator separador7;
+    private javax.swing.JSeparator separador8;
     private javax.swing.JTabbedPane tbpaneEmpilhadeira;
+    private javax.swing.JTabbedPane tbpanePortal;
     private javax.swing.JTabbedPane tbpanemodelo;
     private javax.swing.JToolBar toolbarPrincipal;
+    private javax.swing.JTextArea txtaSaidaPromptEmpilhadeira;
+    private javax.swing.JTextArea txtaSaidaPromptPortal;
+    private javax.swing.JTextField txtbComandoEmpilhadeira;
+    private javax.swing.JTextField txtbComandoPortal;
+    private javax.swing.JTextField txtbGateway_Empilhadeira;
+    private javax.swing.JTextField txtbGateway_Portal;
+    private javax.swing.JTextField txtbIp_Empilhadeira;
+    private javax.swing.JTextField txtbIp_Portal;
+    private javax.swing.JTextField txtbMac_Empilhadeira;
+    private javax.swing.JTextField txtbMac_Portal;
+    private javax.swing.JTextField txtbMask_Empilhadeira;
+    private javax.swing.JTextField txtbMask_Portal;
+    private javax.swing.JTextField txtfAtrasoParaDegradarLeituraPortal;
     private javax.swing.JTextField txtfCinAnt1;
+    private javax.swing.JTextField txtfCinAnt1Portal;
     private javax.swing.JTextField txtfCinAnt2;
+    private javax.swing.JTextField txtfCinAnt2Portal;
     private javax.swing.JTextField txtfCinAnt3;
+    private javax.swing.JTextField txtfCinAnt3Portal;
     private javax.swing.JTextField txtfCinAnt4;
+    private javax.swing.JTextField txtfCinAnt4Portal;
     private javax.swing.JTextField txtfClenAnt1;
+    private javax.swing.JTextField txtfClenAnt1Portal;
     private javax.swing.JTextField txtfClenAnt2;
+    private javax.swing.JTextField txtfClenAnt2Portal;
     private javax.swing.JTextField txtfClenAnt3;
+    private javax.swing.JTextField txtfClenAnt3Portal;
     private javax.swing.JTextField txtfClenAnt4;
+    private javax.swing.JTextField txtfClenAnt4Portal;
     private javax.swing.JTextField txtfCoutAnt1;
+    private javax.swing.JTextField txtfCoutAnt1Portal;
     private javax.swing.JTextField txtfCoutAnt2;
+    private javax.swing.JTextField txtfCoutAnt2Portal;
     private javax.swing.JTextField txtfCoutAnt3;
+    private javax.swing.JTextField txtfCoutAnt3Portal;
     private javax.swing.JTextField txtfCoutAnt4;
+    private javax.swing.JTextField txtfCoutAnt4Portal;
     private javax.swing.JTextField txtfFrequenciaDeOperacao;
+    private javax.swing.JTextField txtfFrequenciaDeOperacaoPortal;
     private javax.swing.JTextField txtfIdEmpilhadeira;
+    private javax.swing.JTextField txtfIdPortal;
     private javax.swing.JTextField txtfIpBackup;
+    private javax.swing.JTextField txtfIpBackupPortal;
     private javax.swing.JTextField txtfIpPrincipal;
+    private javax.swing.JTextField txtfIpPrincipalPortal;
+    private javax.swing.JTextField txtfModoOperacaoPortal;
+    private javax.swing.JTextField txtfNumAntenasLidasPortal;
     private javax.swing.JTextField txtfPortaBackup;
+    private javax.swing.JTextField txtfPortaBackupPortal;
     private javax.swing.JTextField txtfPortaPrincipal;
+    private javax.swing.JTextField txtfPortaPrincipalPortal;
     private javax.swing.JTextField txtfReflexaoAnt1;
+    private javax.swing.JTextField txtfReflexaoAnt1Portal;
     private javax.swing.JTextField txtfReflexaoAnt2;
+    private javax.swing.JTextField txtfReflexaoAnt2Portal;
     private javax.swing.JTextField txtfReflexaoAnt3;
+    private javax.swing.JTextField txtfReflexaoAnt3Portal;
     private javax.swing.JTextField txtfReflexaoAnt4;
+    private javax.swing.JTextField txtfReflexaoAnt4Portal;
+    private javax.swing.JTextField txtfRepeticaoNaLeituraPortal;
     private javax.swing.JSpinner txtfRssiMinAnt1;
     private javax.swing.JSpinner txtfRssiMinAnt2;
     private javax.swing.JSpinner txtfRssiMinAnt3;
     private javax.swing.JSpinner txtfRssiMinAnt4;
     private javax.swing.JPasswordField txtfSenhaWifi;
+    private javax.swing.JTextField txtfSensibilidadeAntenasPortal;
     private javax.swing.JTextField txtfSsidWifi;
+    private javax.swing.JTextField txtfTempoInatividadeTagPortal;
     // End of variables declaration//GEN-END:variables
 }

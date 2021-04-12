@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/sconfig/Main.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>3414</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Vitor/Documents/NetBeansProjects/SConfig/src/sconfig/Main.java</file>
+            <file>jar:file:/C:/Users/Vitor/Documents/NetBeansProjects/SConfig/lib/JSSC/jssc-2.8.0-src.jar!/src/jssc/SerialPort.java</file>
         </group>
     </open-files>
 </project-private>

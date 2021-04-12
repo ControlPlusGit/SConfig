@@ -41,7 +41,12 @@ public class LeitorMarsOne{
     public String portaRemotaSecundaria;
     public String ssidWifi;
     public String senhaWifi;
-    public String firmware; 
+    public String firmware;
+    public int dhcpHabilitado;
+    public String ip;
+    public String gateway;
+    public String mask;
+    public String mac;
     
     public void LeitorMarsOne(){
         this.caminhoDoArquivo = "";
@@ -65,15 +70,21 @@ public class LeitorMarsOne{
         this.numeroDeAntenasLidas = 0;
         
         this.frequenciaDeOperacao = 0;
-        this.idDoLeitor = "";
+        this.idDoLeitor = "0000";
         this.dataHora = "";
-        this.ipRemotoPrincipal = "";
-        this.ipRemotoSecundario = "";
-        this.portaRemotaPrincipal = "";
-        this.portaRemotaSecundaria = "";
-        this.ssidWifi = "";
-        this.senhaWifi = "";
+        this.ipRemotoPrincipal = "192.168.0.2";
+        this.ipRemotoSecundario = "192.168.0.1";
+        this.portaRemotaPrincipal = "8000";
+        this.portaRemotaSecundaria = "8000";
+        this.ssidWifi = "RedeWifi";
+        this.senhaWifi = "12345";
         this.firmware = "";
+        
+        this.dhcpHabilitado = 0;
+        this.ip = "0.0.0.0";
+        this.gateway = "0.0.0.0";
+        this.mask = "0.0.0.0";
+        this.mac = "FF:FF:FF:FF:FF:FF";
     }    
     
 }
