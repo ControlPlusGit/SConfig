@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="SConfig.jar" size="67650" download="eager" />
+    <jar href="SConfig.jar" size="70604" download="eager" />
     <jar href="lib\jssc.jar" size="153562" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="sconfig.SConfig"  name="SConfig" />
