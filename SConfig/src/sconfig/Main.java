@@ -83,7 +83,6 @@ public class Main extends javax.swing.JFrame {
         lblDicaPortaBackup = new javax.swing.JLabel();
         lblDicaIpBackup = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        txtfFrequenciaDeOperacao = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
         lblIpPrincipal2 = new javax.swing.JLabel();
         txtbIp_Empilhadeira = new javax.swing.JTextField();
@@ -110,6 +109,7 @@ public class Main extends javax.swing.JFrame {
         ckbCR = new javax.swing.JCheckBox();
         ckbLF = new javax.swing.JCheckBox();
         ckbNULL = new javax.swing.JCheckBox();
+        cbFreqEmpilhadeira = new javax.swing.JComboBox<>();
         panelAntenas = new javax.swing.JPanel();
         panelAntena1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
@@ -207,7 +207,6 @@ public class Main extends javax.swing.JFrame {
         lblDicaPortaBackup1 = new javax.swing.JLabel();
         lblDicaIpBackup1 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
-        txtfFrequenciaDeOperacaoPortal = new javax.swing.JTextField();
         jLabel53 = new javax.swing.JLabel();
         lblIdEmpilhadeira2 = new javax.swing.JLabel();
         txtfModoOperacaoPortal = new javax.swing.JTextField();
@@ -253,6 +252,7 @@ public class Main extends javax.swing.JFrame {
         ckbNULL_Portal = new javax.swing.JCheckBox();
         separador10 = new javax.swing.JSeparator();
         separador11 = new javax.swing.JSeparator();
+        cbFreqPortal = new javax.swing.JComboBox<>();
         panelAntenas1 = new javax.swing.JPanel();
         panelAntena5 = new javax.swing.JPanel();
         jLabel54 = new javax.swing.JLabel();
@@ -487,6 +487,9 @@ public class Main extends javax.swing.JFrame {
         ckbNULL.setText("NULL");
         ckbNULL.setName("ckbNULL"); // NOI18N
 
+        cbFreqEmpilhadeira.setName(""); // NOI18N
+        cbFreqEmpilhadeira.setOpaque(true);
+
         javax.swing.GroupLayout panelGeralLayout = new javax.swing.GroupLayout(panelGeral);
         panelGeral.setLayout(panelGeralLayout);
         panelGeralLayout.setHorizontalGroup(
@@ -517,12 +520,6 @@ public class Main extends javax.swing.JFrame {
                                         .addComponent(lblDicaSsidWifi, javax.swing.GroupLayout.Alignment.TRAILING)
                                         .addComponent(lblDicaIdLeitor))
                                     .addComponent(lblDicaSenhaWifi, javax.swing.GroupLayout.Alignment.TRAILING)))
-                            .addGroup(panelGeralLayout.createSequentialGroup()
-                                .addComponent(jLabel3)
-                                .addGap(18, 18, 18)
-                                .addComponent(txtfFrequenciaDeOperacao, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel9))
                             .addGroup(panelGeralLayout.createSequentialGroup()
                                 .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(panelGeralLayout.createSequentialGroup()
@@ -591,7 +588,6 @@ public class Main extends javax.swing.JFrame {
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                 .addComponent(lblDicaIpBackup))))
                                     .addComponent(lblServidorBackup)))
-                            .addComponent(lblParamGerais)
                             .addComponent(lblDicaIpPrincipal6)
                             .addGroup(panelGeralLayout.createSequentialGroup()
                                 .addComponent(txtbComandoEmpilhadeira, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -604,8 +600,18 @@ public class Main extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(ckbLF)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(ckbNULL)))
-                        .addGap(0, 63, Short.MAX_VALUE))
+                                .addComponent(ckbNULL))
+                            .addGroup(panelGeralLayout.createSequentialGroup()
+                                .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel3)
+                                    .addComponent(lblParamGerais))
+                                .addGap(18, 18, 18)
+                                .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(cbFreqEmpilhadeira, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(panelGeralLayout.createSequentialGroup()
+                                        .addGap(63, 63, 63)
+                                        .addComponent(jLabel9)))))
+                        .addGap(0, 51, Short.MAX_VALUE))
                     .addComponent(separador1)
                     .addComponent(separador6, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING))
@@ -615,11 +621,12 @@ public class Main extends javax.swing.JFrame {
             panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panelGeralLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lblParamGerais)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblParamGerais)
+                    .addComponent(cbFreqEmpilhadeira, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
-                    .addComponent(txtfFrequenciaDeOperacao, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel9))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -1406,6 +1413,8 @@ public class Main extends javax.swing.JFrame {
 
         separador10.setOrientation(javax.swing.SwingConstants.VERTICAL);
 
+        cbFreqPortal.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+
         javax.swing.GroupLayout panelGeral1Layout = new javax.swing.GroupLayout(panelGeral1);
         panelGeral1.setLayout(panelGeral1Layout);
         panelGeral1Layout.setHorizontalGroup(
@@ -1487,21 +1496,20 @@ public class Main extends javax.swing.JFrame {
                         .addGap(462, 462, 462))
                     .addGroup(panelGeral1Layout.createSequentialGroup()
                         .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(lblParamGerais1)
                             .addGroup(panelGeral1Layout.createSequentialGroup()
+                                .addGap(7, 7, 7)
                                 .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(panelGeral1Layout.createSequentialGroup()
-                                        .addGap(7, 7, 7)
-                                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(lblIdEmpilhadeira2)
-                                            .addComponent(lblIdEmpilhadeira1)
-                                            .addComponent(lblIdEmpilhadeira3)))
-                                    .addGroup(panelGeral1Layout.createSequentialGroup()
-                                        .addGap(8, 8, 8)
-                                        .addComponent(jLabel53)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(lblIdEmpilhadeira2)
+                                    .addComponent(lblIdEmpilhadeira1)
+                                    .addComponent(lblIdEmpilhadeira3)))
+                            .addGroup(panelGeral1Layout.createSequentialGroup()
+                                .addGap(8, 8, 8)
+                                .addComponent(jLabel53))
+                            .addComponent(lblParamGerais1))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(panelGeral1Layout.createSequentialGroup()
                                 .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(txtfFrequenciaDeOperacaoPortal, javax.swing.GroupLayout.DEFAULT_SIZE, 61, Short.MAX_VALUE)
                                     .addComponent(txtfAtrasoParaDegradarLeituraPortal, javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(txtfModoOperacaoPortal)
                                     .addComponent(txtfIdPortal))
@@ -1509,7 +1517,8 @@ public class Main extends javax.swing.JFrame {
                                 .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(lblDicaIdLeitor4)
                                     .addComponent(lblDicaIdLeitor2)
-                                    .addComponent(jLabel20))))
+                                    .addComponent(jLabel20)))
+                            .addComponent(cbFreqPortal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
                         .addComponent(separador5, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -1563,12 +1572,13 @@ public class Main extends javax.swing.JFrame {
             .addGroup(panelGeral1Layout.createSequentialGroup()
                 .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(panelGeral1Layout.createSequentialGroup()
-                        .addGap(16, 16, 16)
-                        .addComponent(lblParamGerais1)
+                        .addGap(13, 13, 13)
+                        .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblParamGerais1)
+                            .addComponent(cbFreqPortal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel53)
-                            .addComponent(txtfFrequenciaDeOperacaoPortal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel20))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelGeral1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -2196,7 +2206,18 @@ public class Main extends javax.swing.JFrame {
         cbPorts.setLightWeightPopupEnabled(false);
         cbPorts.setMaximumSize(new java.awt.Dimension(80, 25));
         cbPorts.setMinimumSize(new java.awt.Dimension(80, 25));
+        cbPorts.setName(""); // NOI18N
         cbPorts.setPreferredSize(new java.awt.Dimension(80, 25));
+        cbPorts.addItemListener(new java.awt.event.ItemListener() {
+            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+                cbPortsItemStateChanged(evt);
+            }
+        });
+        cbPorts.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cbPortsActionPerformed(evt);
+            }
+        });
         jToolBar1.add(cbPorts);
 
         jSeparator1.setMinimumSize(new java.awt.Dimension(6, 3));
@@ -2330,6 +2351,8 @@ public class Main extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    public String usbPort;
+    
     private void menuNovoArqConfigEmpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuNovoArqConfigEmpActionPerformed
         // TODO add your handling code here:
         tbpanemodelo.removeAll();
@@ -2361,8 +2384,8 @@ public class Main extends javax.swing.JFrame {
         empresa             = "Control + Plus";        
         autor               = "Vitor M. dos S. Alho";
         versao              = "01";
-        revisao             = "02";
-        dataUltimaAlteracao = "07/07/2020";
+        revisao             = "04";
+        dataUltimaAlteracao = "03/08/2022";
         
         sobre = new Sobre();
         
@@ -2385,7 +2408,7 @@ public class Main extends javax.swing.JFrame {
         int posicao = 0;
         
         if(tbpanemodelo.isVisible()){
-            atualizarPortasCom();
+            //atualizarPortasCom();
         
             if(cbPorts.getItemCount() > 0){
                 try{        
@@ -2469,12 +2492,12 @@ public class Main extends javax.swing.JFrame {
     private void btnLerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLerActionPerformed
         // TODO add your handling code here:]
         try{
-            atualizarPortasCom();
+            //atualizarPortasCom();
 
             if(cbPorts.getItemCount() > 0){
                 LeitorMarsOne novoLeitor;
-                novoLeitor = lerParametrosDoLeitor(cbPorts.getSelectedItem().toString());              
-                
+                novoLeitor = lerParametrosDoLeitor(usbPort);              
+            
                 salvarArquivo(novoLeitor);
 
                 switch(((LeitorMarsOne)equipamentosAbertos.get(equipamentosAbertos.size()-1)).tipoDoProduto){
@@ -2712,6 +2735,18 @@ public class Main extends javax.swing.JFrame {
         fecharConexaoSerial();
     }//GEN-LAST:event_btnFecharConexaoSerialActionPerformed
 
+    private void cbPortsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbPortsActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cbPortsActionPerformed
+
+    private void cbPortsItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_cbPortsItemStateChanged
+        // TODO add your handling code here:
+        if(!cbPorts.getSelectedItem().toString().isEmpty())
+        {
+            usbPort = cbPorts.getSelectedItem().toString();
+        }
+    }//GEN-LAST:event_cbPortsItemStateChanged
+
     static Sobre sobre;
     
     // BLOCO EXIBIDO NO FRAME SOBRE
@@ -2723,7 +2758,7 @@ public class Main extends javax.swing.JFrame {
     /////////////////////////////////////////
     
     ArrayList equipamentosAbertos = new ArrayList<LeitorMarsOne>();
-            
+    Frequencias tableFreq = new Frequencias();
     SerialPort conexaoCOM;
     ObservableList<String> portList;
     String perfilSelecionado;
@@ -2772,7 +2807,7 @@ public class Main extends javax.swing.JFrame {
                             leitorParaSalvar.antena4.setAjuste(Integer.parseInt(txtfCinAnt4.getText()),Integer.parseInt(txtfClenAnt4.getText()),Integer.parseInt(txtfCoutAnt4.getText()));
                             txtfRssiMinAnt4.commitEdit();
                             leitorParaSalvar.antena4.setSensibilidade((Integer)txtfRssiMinAnt4.getValue());
-                            leitorParaSalvar.frequenciaDeOperacao = Integer.parseInt(txtfFrequenciaDeOperacao.getText());
+                            leitorParaSalvar.frequenciaDeOperacao =  tableFreq.getFreqIndex(Integer.parseInt(cbFreqEmpilhadeira.getSelectedItem().toString()));
 
                             leitorParaSalvar.antena1.setReflexao(Integer.parseInt(txtfReflexaoAnt1.getText()));
                             leitorParaSalvar.antena2.setReflexao(Integer.parseInt(txtfReflexaoAnt2.getText()));
@@ -2822,7 +2857,7 @@ public class Main extends javax.swing.JFrame {
                             leitorParaSalvar.antena4.setAjuste(Integer.parseInt(txtfCinAnt4Portal.getText()),Integer.parseInt(txtfClenAnt4Portal.getText()),Integer.parseInt(txtfCoutAnt4Portal.getText()));
                             //txtfRssiMinAnt4.commitEdit();
                             //leitorParaSalvar.antena4.setSensibilidade((Integer)txtfRssiMinAnt4.getValue());
-                            leitorParaSalvar.frequenciaDeOperacao = Integer.parseInt(txtfFrequenciaDeOperacaoPortal.getText());
+                            leitorParaSalvar.frequenciaDeOperacao = tableFreq.getFreqIndex(Integer.parseInt(cbFreqPortal.getSelectedItem().toString()));
 
                             leitorParaSalvar.antena1.setReflexao(Integer.parseInt(txtfReflexaoAnt1Portal.getText()));
                             leitorParaSalvar.antena2.setReflexao(Integer.parseInt(txtfReflexaoAnt2Portal.getText()));
@@ -3068,7 +3103,7 @@ public class Main extends javax.swing.JFrame {
             //Thread.sleep(delay);            
             //bufferRecebimentoCOM = conexaoCOM.readString();
             
-            mensagem[15] = String.format("#CMD15;%03d\r\n",leitor.frequenciaDeOperacao-900);       
+            mensagem[15] = String.format("#CMD15;%03d\r\n",leitor.frequenciaDeOperacao);       
             //conexaoCOM.writeString(mensagem);
             //Thread.sleep(delay);            
             //bufferRecebimentoCOM = conexaoCOM.readString();
@@ -3375,7 +3410,7 @@ public class Main extends javax.swing.JFrame {
         
         LeitorMarsOne leitor = new LeitorMarsOne();           
         AjusteCapacitores ajuste = new AjusteCapacitores();
-                
+        Frequencias tabelaFrequencias = new Frequencias();
         //System.out.println("lerParametrosDoLeitor");
         
         try{
@@ -3445,7 +3480,7 @@ public class Main extends javax.swing.JFrame {
                 ajuste.setCout(Integer.parseInt(ajusteCapacitores[2]));
                 leitor.antena8 = new Antena(8,ajuste,125);
                 leitor.antena8.setReflexao(Integer.parseInt(ajusteCapacitores[3]));
-                leitor.frequenciaDeOperacao = Integer.parseInt(parametrosLeitor[15])+900;
+                leitor.frequenciaDeOperacao = tabelaFrequencias.getFreqIndex(Integer.parseInt(parametrosLeitor[15]));
                 leitor.idDoLeitor = parametrosLeitor[16];
                 leitor.ipRemotoPrincipal = parametrosLeitor[17];
                 leitor.ipRemotoSecundario = parametrosLeitor[18];
@@ -3866,11 +3901,16 @@ public class Main extends javax.swing.JFrame {
     public void adicionarAbaDeEmpilhadeira(String nomeAba, LeitorMarsOne empilhadeira){
       
         javax.swing.JTabbedPane novaAbaDeEmpilhadeira = new javax.swing.JTabbedPane();
-        
+        Frequencias tabelaFrequencias = new Frequencias();
         novaAbaDeEmpilhadeira = tbpaneEmpilhadeira;
         
+        int numfreqs = tabelaFrequencias.getNumFreqs();
         // GERAL
-        txtfFrequenciaDeOperacao.setText(String.valueOf(empilhadeira.frequenciaDeOperacao));
+        for(int i=0; i<numfreqs;i++){
+            cbFreqEmpilhadeira.addItem(tabelaFrequencias.getFreqString(i));
+        }
+        cbFreqEmpilhadeira.setSelectedIndex(empilhadeira.frequenciaDeOperacao);
+        //txtfFrequenciaDeOperacao.setText(String.valueOf(tabelaFrequencias.getFreq(empilhadeira.frequenciaDeOperacao)));
         txtfIdEmpilhadeira.setText(empilhadeira.idDoLeitor);
         txtfSsidWifi.setText(empilhadeira.ssidWifi);
         txtfSenhaWifi.setText(empilhadeira.senhaWifi);
@@ -3928,11 +3968,17 @@ public class Main extends javax.swing.JFrame {
     public void adicionarAbaDePortal(String nomeAba, LeitorMarsOne portal){
       
         javax.swing.JTabbedPane novaAbaDePortal = new javax.swing.JTabbedPane();
-        
+        Frequencias tabelaFrequencias = new Frequencias();
         novaAbaDePortal = tbpanePortal;
         
+        int numfreqs = tabelaFrequencias.getNumFreqs();
+        
         // GERAL
-        txtfFrequenciaDeOperacaoPortal.setText(String.valueOf(portal.frequenciaDeOperacao));
+        for(int i=0; i<numfreqs;i++){
+            cbFreqEmpilhadeira.addItem(tabelaFrequencias.getFreqString(i));
+        }
+        cbFreqPortal.setSelectedIndex(portal.frequenciaDeOperacao);
+        //txtfFrequenciaDeOperacaoPortal.setText(String.valueOf(portal.frequenciaDeOperacao));
         txtfIdPortal.setText(portal.idDoLeitor);
         
         txtfModoOperacaoPortal.setText(String.valueOf(portal.modoDeOperacao));
@@ -4086,6 +4132,7 @@ public class Main extends javax.swing.JFrame {
                                 equipamentosAbertos.clear();
                                 equipamentosAbertos.add(leitorCarregado);
                                 adicionarAbaDeEmpilhadeira(leitorCarregado.nomeDoArquivo,leitorCarregado);
+                                tbpanemodelo.setVisible(true);
                             break;
                         case PORTAL:                                
                                 leitorCarregado.antena1 = new Antena(Integer.parseInt(parametros[2]),Integer.parseInt(parametros[3]),Integer.parseInt(parametros[4]),
@@ -4416,6 +4463,8 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JButton btnLimparConsolePortal;
     private javax.swing.JCheckBox cbDHCP_Empilhadeira;
     private javax.swing.JCheckBox cbDHCP_Portal;
+    private javax.swing.JComboBox<String> cbFreqEmpilhadeira;
+    private javax.swing.JComboBox<String> cbFreqPortal;
     private javax.swing.JComboBox<String> cbPorts;
     private javax.swing.JCheckBox ckbCR;
     private javax.swing.JCheckBox ckbCR_Portal;
@@ -4660,8 +4709,6 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JTextField txtfCoutAnt3Portal;
     private javax.swing.JTextField txtfCoutAnt4;
     private javax.swing.JTextField txtfCoutAnt4Portal;
-    private javax.swing.JTextField txtfFrequenciaDeOperacao;
-    private javax.swing.JTextField txtfFrequenciaDeOperacaoPortal;
     private javax.swing.JTextField txtfIdEmpilhadeira;
     private javax.swing.JTextField txtfIdPortal;
     private javax.swing.JTextField txtfIpBackup;
