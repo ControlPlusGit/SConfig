@@ -489,6 +489,11 @@ public class Main extends javax.swing.JFrame {
 
         cbFreqEmpilhadeira.setName(""); // NOI18N
         cbFreqEmpilhadeira.setOpaque(true);
+        cbFreqEmpilhadeira.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cbFreqEmpilhadeiraActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout panelGeralLayout = new javax.swing.GroupLayout(panelGeral);
         panelGeral.setLayout(panelGeralLayout);
@@ -605,12 +610,13 @@ public class Main extends javax.swing.JFrame {
                                 .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel3)
                                     .addComponent(lblParamGerais))
-                                .addGap(18, 18, 18)
                                 .addGroup(panelGeralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(cbFreqEmpilhadeira, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(panelGeralLayout.createSequentialGroup()
-                                        .addGap(63, 63, 63)
-                                        .addComponent(jLabel9)))))
+                                        .addGap(81, 81, 81)
+                                        .addComponent(jLabel9))
+                                    .addGroup(panelGeralLayout.createSequentialGroup()
+                                        .addGap(18, 18, 18)
+                                        .addComponent(cbFreqEmpilhadeira, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                         .addGap(0, 51, Short.MAX_VALUE))
                     .addComponent(separador1)
                     .addComponent(separador6, javax.swing.GroupLayout.Alignment.TRAILING)
@@ -1412,8 +1418,6 @@ public class Main extends javax.swing.JFrame {
         ckbNULL_Portal.setName("ckbNULL_Portal"); // NOI18N
 
         separador10.setOrientation(javax.swing.SwingConstants.VERTICAL);
-
-        cbFreqPortal.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         javax.swing.GroupLayout panelGeral1Layout = new javax.swing.GroupLayout(panelGeral1);
         panelGeral1.setLayout(panelGeral1Layout);
@@ -2383,9 +2387,9 @@ public class Main extends javax.swing.JFrame {
         // TODO add your handling code here:
         empresa             = "Control + Plus";        
         autor               = "Vitor M. dos S. Alho";
-        versao              = "01";
-        revisao             = "04";
-        dataUltimaAlteracao = "03/08/2022";
+        versao              = "02";
+        revisao             = "00";
+        dataUltimaAlteracao = "14/11/2022";
         
         sobre = new Sobre();
         
@@ -2746,6 +2750,10 @@ public class Main extends javax.swing.JFrame {
             usbPort = cbPorts.getSelectedItem().toString();
         }
     }//GEN-LAST:event_cbPortsItemStateChanged
+
+    private void cbFreqEmpilhadeiraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbFreqEmpilhadeiraActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cbFreqEmpilhadeiraActionPerformed
 
     static Sobre sobre;
     
@@ -3904,6 +3912,8 @@ public class Main extends javax.swing.JFrame {
         Frequencias tabelaFrequencias = new Frequencias();
         novaAbaDeEmpilhadeira = tbpaneEmpilhadeira;
         
+        cbFreqEmpilhadeira.removeAllItems();
+        
         int numfreqs = tabelaFrequencias.getNumFreqs();
         // GERAL
         for(int i=0; i<numfreqs;i++){
@@ -3971,11 +3981,13 @@ public class Main extends javax.swing.JFrame {
         Frequencias tabelaFrequencias = new Frequencias();
         novaAbaDePortal = tbpanePortal;
         
+        cbFreqPortal.removeAllItems();
+        
         int numfreqs = tabelaFrequencias.getNumFreqs();
         
         // GERAL
         for(int i=0; i<numfreqs;i++){
-            cbFreqEmpilhadeira.addItem(tabelaFrequencias.getFreqString(i));
+            cbFreqPortal.addItem(tabelaFrequencias.getFreqString(i));
         }
         cbFreqPortal.setSelectedIndex(portal.frequenciaDeOperacao);
         //txtfFrequenciaDeOperacaoPortal.setText(String.valueOf(portal.frequenciaDeOperacao));
